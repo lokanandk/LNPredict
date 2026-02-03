@@ -1,0 +1,8 @@
+{
+  "avg_statistical_pvalue": 0.5442941803061503,
+  "range_coverage": 1.0,
+  "correlation_preservation": 0.9857522256085507,
+  "diversity_score": 1.0,
+  "overall_quality": 0.21510967480338877,
+  "num_features_tested": 21
+}

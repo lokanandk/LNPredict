@@ -1,0 +1,62 @@
+# Default configuration for LNP Hyperparameter Tuning
+
+# Model Architecture
+model:
+  hidden_dims: [128, 64]
+  num_heads: 4
+  dropout_rate: 0.2
+  
+# Training Configuration  
+training:
+  epochs: 100
+  learning_rate: 0.0001
+  weight_decay: 0.0001
+  batch_size: 32
+  early_stopping_patience: 50
+  scheduler_type: "cosine"
+  loss_weights: [0.6, 0.3, 0.1]  # MSE, Huber, L1
+
+# Data Configuration
+data:
+  test_size: 0.15
+  random_state: 42
+  stratify_bins: 5
+
+# Hyperparameter Search
+hyperparameter_search:
+  max_trials: 10
+  search_space:
+    learning_rate: [1e-6, 5e-5, 1e-5, 5e-4, 1e-4, 5e-3, 1e-3]
+    weight_decay: [0, 1e-6, 1e-5, 1e-4, 1e-3, 5e-3, 1e-2]
+    dropout_rate: [0.05, 0.1, 0.15, 0.2, 0.3, 0.4, 0.5]
+    batch_size: [8, 16, 32, 64]
+    hidden_dims:
+      - [64]
+      - [128]
+      - [64, 32]
+      - [128, 64]
+      - [256, 128]
+      - [128, 64, 32]
+      - [256, 128, 64]
+    num_heads: [2, 4, 6, 8]
+    early_stopping_patience: [30, 50, 75, 100]
+    scheduler_type: ["cosine", "plateau", "step", "exponential", "linear"]
+    loss_weights:
+      - [1.0, 0.0, 0.0]
+      - [0.8, 0.2, 0.0]
+      - [0.6, 0.3, 0.1]
+      - [0.4, 0.4, 0.2]
+      - [0.5, 0.3, 0.2]
+
+# Evaluation Configuration
+evaluation:
+  generate_plots: true
+  save_predictions: true
+  detailed_analysis: true
+  plot_formats: ["png", "pdf"]
+  
+# Output Configuration  
+output:
+  save_checkpoints: true
+  checkpoint_frequency: 5  # epochs
+  log_level: "INFO"

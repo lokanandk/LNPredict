@@ -1,0 +1,8 @@
+{
+  "error": "'component_library'",
+  "best_r2": 0.0,
+  "best_config": null,
+  "best_model_path": null,
+  "num_trials": 0,
+  "avg_r2": 0.0
+}

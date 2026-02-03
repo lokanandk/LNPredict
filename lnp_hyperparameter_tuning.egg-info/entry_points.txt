@@ -1,0 +1,5 @@
+[console_scripts]
+lnp-evaluate = scripts.evaluate:main
+lnp-hypersearch = scripts.hyperparameter_search:main
+lnp-predict = scripts.predict:main
+lnp-train = scripts.train:main

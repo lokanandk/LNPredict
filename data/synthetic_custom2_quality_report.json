@@ -1,0 +1,115 @@
+{
+  "avg_statistical_pvalue": 0.4722381891281939,
+  "range_coverage": 0.9941478428441259,
+  "correlation_preservation": 0.9324127714641665,
+  "diversity_score": 1.0,
+  "overall_quality": 0.20659959097113229,
+  "num_features_tested": 21,
+  "distribution_details": {
+    "target": {
+      "p_value": 0.0004296843400743624,
+      "effect_size": 0.052246983505357385,
+      "score": 0.5
+    },
+    "comp_ALC-0315": {
+      "p_value": 0.9585288754937777,
+      "effect_size": 365076417825.0,
+      "score": 0.9585288754937777
+    },
+    "comp_ALC-0159": {
+      "p_value": 2.508682180678908e-05,
+      "effect_size": 0.12972089615914362,
+      "score": 0.5
+    },
+    "comp_DSPC": {
+      "p_value": 0.9584593467410172,
+      "effect_size": Infinity,
+      "score": 0.9584593467410172
+    },
+    "comp_Cholesterol": {
+      "p_value": 1.5972304615325866e-09,
+      "effect_size": 0.3595433714342553,
+      "score": 1.5972304615325866e-09
+    },
+    "comp_CPSM-6": {
+      "p_value": 0.09233333072797392,
+      "effect_size": 0.07243004866861338,
+      "score": 0.5
+    },
+    "comp_CPSM-15": {
+      "p_value": 0.008206032188541074,
+      "effect_size": 0.025328871208622154,
+      "score": 0.5
+    },
+    "comp_CPSM-DL-15": {
+      "p_value": 0.12660273352397197,
+      "effect_size": 0.0915772926755702,
+      "score": 0.5
+    },
+    "comp_CM": {
+      "p_value": 2.1803117784422464e-09,
+      "effect_size": 0.3066012986587978,
+      "score": 2.1803117784422464e-09
+    },
+    "comp_CMO": {
+      "p_value": 0.00015598593084490287,
+      "effect_size": 0.1815551811572783,
+      "score": 0.5
+    },
+    "comp_DMG-C-PEG": {
+      "p_value": 0.019886325649862525,
+      "effect_size": 0.046336492116472394,
+      "score": 0.5
+    },
+    "comp_DMG-PEG": {
+      "p_value": 0.022071681386320045,
+      "effect_size": 0.05118270290756219,
+      "score": 0.5
+    },
+    "comp_DSG-PEG": {
+      "p_value": 0.02886885253858616,
+      "effect_size": 0.04526433932350759,
+      "score": 0.5
+    },
+    "comp_C8-Ceramide-PEG": {
+      "p_value": 0.022439028372245002,
+      "effect_size": 0.05262285806669899,
+      "score": 0.5
+    },
+    "comp_C16-Ceramide-PEG": {
+      "p_value": 0.026516319690898627,
+      "effect_size": 0.040453272057471665,
+      "score": 0.5
+    },
+    "comp_DMPE-PEG": {
+      "p_value": 0.015666350012898813,
+      "effect_size": 0.06681918554559335,
+      "score": 0.5
+    },
+    "comp_DSPE-PEG": {
+      "p_value": 0.021764846228937505,
+      "effect_size": 0.04272283617442788,
+      "score": 0.5
+    },
+    "prop_size": {
+      "p_value": 0.20189795579081637,
+      "effect_size": 0.10310667033792105,
+      "score": 0.5
+    },
+    "prop_polydispersity_index": {
+      "p_value": 0.09072299757647102,
+      "effect_size": 0.030453281819351603,
+      "score": 0.5
+    },
+    "prop_zeta_potential": {
+      "p_value": 1.3745679733151198e-05,
+      "effect_size": 0.43689364302658074,
+      "score": 1.3745679733151198e-05
+    },
+    "prop_encapsulation_efficiency_": {
+      "p_value": 0.005529936732806776,
+      "effect_size": 0.017235202235093516,
+      "score": 0.5
+    }
+  }
+}

@@ -1,0 +1,3110 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "total_formulations": 93,
+    "components": [
+      "ALC-0315",
+      "ALC-0159",
+      "DSPC",
+      "Cholesterol",
+      "CPSM-6",
+      "CPSM-15",
+      "CPSM-DL-15",
+      "CM",
+      "CMO",
+      "DMG-C-PEG",
+      "DMG-PEG",
+      "DSG-PEG",
+      "C8-Ceramide-PEG",
+      "C16-Ceramide-PEG",
+      "DMPE-PEG",
+      "DSPE-PEG"
+    ]
+  },
+  "component_library": {
+    "smiles_mapping": {
+      "ALC-0315": "CCCCCCCCC(CCCCCC)C(=O)OCCCCCCN(CCCCCCOC(=O)C(CCCCCC)CCCCCCCC)CCCCO",
+      "ALC-0159": "CCCCCCCCCCCCCCN(CCCCCCCCCCCCCC)C(=O)COCCOC.N",
+      "DSPC": "CCCCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CCCCCCCCCCCCCCCCC",
+      "Cholesterol": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)C",
+      "CPSM-6": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)COC1C(C(C(C(O1)O)O)O)O",
+      "CPSM-15": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)CO",
+      "CPSM-DL-15": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)CO",
+      "CM": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)COC1C(C(C(C(O1)O)O)O)O",
+      "CMO": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)COC1C(C(C(C(O1)OC(=O)CCCCCC)O)O)O",
+      "DMG-C-PEG": "CCCCCCCCCCCC(=O)OCC(OC(=O)CCCCCCCCCCCC)COCCOCCO",
+      "DMG-PEG": "CCCCCCCCCCCC(=O)OCC(OC(=O)CCCCCCCCCCCC)COCCOCCO",
+      "DSG-PEG": "CCCCCCCCCCCCCCCCCC(=O)OCC(COCCOCCOC)OC(=O)CCCCCCCCCCCCCCCCC",
+      "C8-Ceramide-PEG": "CCCCCCCCCCCCC/C=C/[C@H]([C@H](COC(=O)CCC(=O)OCCOC)NC(=O)CCCCCCC)O",
+      "C16-Ceramide-PEG": "CCCCCCCCCCCCCCCC(=O)N[C@@H](COC(=O)CCC(=O)OCCOC)[C@@H](/C=C/CCCCCCCCCCCCC)O",
+      "DMPE-PEG": "CCCCCCCCCCCC(=O)OCC[C@H](COP(=O)(O)OCCNCCOCCOCCO)OC(=O)CCCCCCCCCCCC",
+      "DSPE-PEG": "CCCCCCCCCCCCCCCCCC(=O)OCC[C@H](COP(=O)(O)OCCNCCOCCOCCO)OC(=O)CCCCCCCCCCCCCCCCCC"
+    },
+    "component_types": {
+      "ionizable_lipids": [
+        "ALC-0315",
+        "ALC-0159"
+      ],
+      "helper_lipids": [
+        "DSPC",
+        "Cholesterol",
+        "CPSM-6",
+        "CPSM-15",
+        "CPSM-DL-15",
+        "CM",
+        "CMO"
+      ],
+      "peg_lipids": [
+        "DMG-C-PEG",
+        "DMG-PEG",
+        "DSG-PEG"
+      ],
+      "ceramide_peg": [
+        "C8-Ceramide-PEG",
+        "C16-Ceramide-PEG"
+      ],
+      "phospholipid_peg": [
+        "DMPE-PEG",
+        "DSPE-PEG"
+      ]
+    }
+  },
+  "formulations": [
+    {
+      "id": "ALC-0159_ 1.6",
+      "components": {
+        "ALC-0315": {
+          "composition_percent": 46.3,
+          "smiles": "CCCCCCCCC(CCCCCC)C(=O)OCCCCCCN(CCCCCCOC(=O)C(CCCCCC)CCCCCCCC)CCCCO",
+          "category": "ionizable_lipids"
+        },
+        "ALC-0159": {
+          "composition_percent": 1.6,
+          "smiles": "CCCCCCCCCCCCCCN(CCCCCCCCCCCCCC)C(=O)COCCOC.N",
+          "category": "ionizable_lipids"
+        },
+        "DSPC": {
+          "composition_percent": 9.4,
+          "smiles": "CCCCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CCCCCCCCCCCCCCCCC",
+          "category": "helper_lipids"
+        },
+        "Cholesterol": {
+          "composition_percent": 42.7,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)C",
+          "category": "helper_lipids"
+        }
+      },
+      "properties": {
+        "size": 105.0,
+        "polydispersity_index": 0.133,
+        "zeta_potential": -3.72,
+        "encapsulation_efficiency_": 81.7
+      },
+      "target": 1.0
+    },
+    {
+      "id": "CH-1",
+      "components": {
+        "ALC-0315": {
+          "composition_percent": 46.3,
+          "smiles": "CCCCCCCCC(CCCCCC)C(=O)OCCCCCCN(CCCCCCOC(=O)C(CCCCCC)CCCCCCCC)CCCCO",
+          "category": "ionizable_lipids"
+        },
+        "ALC-0159": {
+          "composition_percent": 1.6,
+          "smiles": "CCCCCCCCCCCCCCN(CCCCCCCCCCCCCC)C(=O)COCCOC.N",
+          "category": "ionizable_lipids"
+        },
+        "DSPC": {
+          "composition_percent": 9.4,
+          "smiles": "CCCCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CCCCCCCCCCCCCCCCC",
+          "category": "helper_lipids"
+        },
+        "Cholesterol": {
+          "composition_percent": 37.7,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)C",
+          "category": "helper_lipids"
+        },
+        "CMO": {
+          "composition_percent": 5.0,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)COC1C(C(C(C(O1)OC(=O)CCCCCC)O)O)O",
+          "category": "helper_lipids"
+        }
+      },
+      "properties": {
+        "size": 126.0,
+        "polydispersity_index": 0.152,
+        "zeta_potential": -10.61,
+        "encapsulation_efficiency_": 75.0
+      },
+      "target": 2.13
+    },
+    {
+      "id": "CH-2",
+      "components": {
+        "ALC-0315": {
+          "composition_percent": 46.3,
+          "smiles": "CCCCCCCCC(CCCCCC)C(=O)OCCCCCCN(CCCCCCOC(=O)C(CCCCCC)CCCCCCCC)CCCCO",
+          "category": "ionizable_lipids"
+        },
+        "ALC-0159": {
+          "composition_percent": 1.6,
+          "smiles": "CCCCCCCCCCCCCCN(CCCCCCCCCCCCCC)C(=O)COCCOC.N",
+          "category": "ionizable_lipids"
+        },
+        "DSPC": {
+          "composition_percent": 9.4,
+          "smiles": "CCCCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CCCCCCCCCCCCCCCCC",
+          "category": "helper_lipids"
+        },
+        "Cholesterol": {
+          "composition_percent": 32.7,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)C",
+          "category": "helper_lipids"
+        },
+        "CMO": {
+          "composition_percent": 10.0,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)COC1C(C(C(C(O1)OC(=O)CCCCCC)O)O)O",
+          "category": "helper_lipids"
+        }
+      },
+      "properties": {
+        "size": 119.0,
+        "polydispersity_index": 0.182,
+        "zeta_potential": -9.9,
+        "encapsulation_efficiency_": 63.2
+      },
+      "target": 1.2
+    },
+    {
+      "id": "CH-3",
+      "components": {
+        "ALC-0315": {
+          "composition_percent": 46.3,
+          "smiles": "CCCCCCCCC(CCCCCC)C(=O)OCCCCCCN(CCCCCCOC(=O)C(CCCCCC)CCCCCCCC)CCCCO",
+          "category": "ionizable_lipids"
+        },
+        "ALC-0159": {
+          "composition_percent": 1.6,
+          "smiles": "CCCCCCCCCCCCCCN(CCCCCCCCCCCCCC)C(=O)COCCOC.N",
+          "category": "ionizable_lipids"
+        },
+        "DSPC": {
+          "composition_percent": 9.4,
+          "smiles": "CCCCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CCCCCCCCCCCCCCCCC",
+          "category": "helper_lipids"
+        },
+        "Cholesterol": {
+          "composition_percent": 27.7,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)C",
+          "category": "helper_lipids"
+        },
+        "CMO": {
+          "composition_percent": 15.0,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)COC1C(C(C(C(O1)OC(=O)CCCCCC)O)O)O",
+          "category": "helper_lipids"
+        }
+      },
+      "properties": {
+        "size": 114.0,
+        "polydispersity_index": 0.178,
+        "zeta_potential": -10.9,
+        "encapsulation_efficiency_": 65.0
+      },
+      "target": 0.68
+    },
+    {
+      "id": "CH-4",
+      "components": {
+        "ALC-0315": {
+          "composition_percent": 46.3,
+          "smiles": "CCCCCCCCC(CCCCCC)C(=O)OCCCCCCN(CCCCCCOC(=O)C(CCCCCC)CCCCCCCC)CCCCO",
+          "category": "ionizable_lipids"
+        },
+        "ALC-0159": {
+          "composition_percent": 1.6,
+          "smiles": "CCCCCCCCCCCCCCN(CCCCCCCCCCCCCC)C(=O)COCCOC.N",
+          "category": "ionizable_lipids"
+        },
+        "DSPC": {
+          "composition_percent": 9.4,
+          "smiles": "CCCCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CCCCCCCCCCCCCCCCC",
+          "category": "helper_lipids"
+        },
+        "Cholesterol": {
+          "composition_percent": 22.7,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)C",
+          "category": "helper_lipids"
+        },
+        "CMO": {
+          "composition_percent": 20.0,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)COC1C(C(C(C(O1)OC(=O)CCCCCC)O)O)O",
+          "category": "helper_lipids"
+        }
+      },
+      "properties": {
+        "size": 94.0,
+        "polydispersity_index": 0.148,
+        "zeta_potential": -3.39,
+        "encapsulation_efficiency_": 80.8
+      },
+      "target": 0.39
+    },
+    {
+      "id": "CH-5",
+      "components": {
+        "ALC-0315": {
+          "composition_percent": 46.3,
+          "smiles": "CCCCCCCCC(CCCCCC)C(=O)OCCCCCCN(CCCCCCOC(=O)C(CCCCCC)CCCCCCCC)CCCCO",
+          "category": "ionizable_lipids"
+        },
+        "ALC-0159": {
+          "composition_percent": 1.6,
+          "smiles": "CCCCCCCCCCCCCCN(CCCCCCCCCCCCCC)C(=O)COCCOC.N",
+          "category": "ionizable_lipids"
+        },
+        "DSPC": {
+          "composition_percent": 9.4,
+          "smiles": "CCCCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CCCCCCCCCCCCCCCCC",
+          "category": "helper_lipids"
+        },
+        "CMO": {
+          "composition_percent": 42.7,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)COC1C(C(C(C(O1)OC(=O)CCCCCC)O)O)O",
+          "category": "helper_lipids"
+        }
+      },
+      "properties": {
+        "size": 114.0,
+        "polydispersity_index": 0.209,
+        "zeta_potential": -10.25,
+        "encapsulation_efficiency_": 56.7
+      },
+      "target": 0.25
+    },
+    {
+      "id": "CH-6",
+      "components": {
+        "ALC-0315": {
+          "composition_percent": 46.3,
+          "smiles": "CCCCCCCCC(CCCCCC)C(=O)OCCCCCCN(CCCCCCOC(=O)C(CCCCCC)CCCCCCCC)CCCCO",
+          "category": "ionizable_lipids"
+        },
+        "ALC-0159": {
+          "composition_percent": 1.6,
+          "smiles": "CCCCCCCCCCCCCCN(CCCCCCCCCCCCCC)C(=O)COCCOC.N",
+          "category": "ionizable_lipids"
+        },
+        "DSPC": {
+          "composition_percent": 9.4,
+          "smiles": "CCCCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CCCCCCCCCCCCCCCCC",
+          "category": "helper_lipids"
+        },
+        "Cholesterol": {
+          "composition_percent": 37.7,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)C",
+          "category": "helper_lipids"
+        },
+        "CM": {
+          "composition_percent": 5.0,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)COC1C(C(C(C(O1)O)O)O)O",
+          "category": "helper_lipids"
+        }
+      },
+      "properties": {
+        "size": 111.0,
+        "polydispersity_index": 0.12,
+        "zeta_potential": -3.87,
+        "encapsulation_efficiency_": 78.3
+      },
+      "target": 1.2
+    },
+    {
+      "id": "CH-7",
+      "components": {
+        "ALC-0315": {
+          "composition_percent": 46.3,
+          "smiles": "CCCCCCCCC(CCCCCC)C(=O)OCCCCCCN(CCCCCCOC(=O)C(CCCCCC)CCCCCCCC)CCCCO",
+          "category": "ionizable_lipids"
+        },
+        "ALC-0159": {
+          "composition_percent": 1.6,
+          "smiles": "CCCCCCCCCCCCCCN(CCCCCCCCCCCCCC)C(=O)COCCOC.N",
+          "category": "ionizable_lipids"
+        },
+        "DSPC": {
+          "composition_percent": 9.4,
+          "smiles": "CCCCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CCCCCCCCCCCCCCCCC",
+          "category": "helper_lipids"
+        },
+        "Cholesterol": {
+          "composition_percent": 32.7,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)C",
+          "category": "helper_lipids"
+        },
+        "CM": {
+          "composition_percent": 10.0,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)COC1C(C(C(C(O1)O)O)O)O",
+          "category": "helper_lipids"
+        }
+      },
+      "properties": {
+        "size": 111.0,
+        "polydispersity_index": 0.124,
+        "zeta_potential": -3.45,
+        "encapsulation_efficiency_": 83.6
+      },
+      "target": 0.85
+    },
+    {
+      "id": "CH-8",
+      "components": {
+        "ALC-0315": {
+          "composition_percent": 46.3,
+          "smiles": "CCCCCCCCC(CCCCCC)C(=O)OCCCCCCN(CCCCCCOC(=O)C(CCCCCC)CCCCCCCC)CCCCO",
+          "category": "ionizable_lipids"
+        },
+        "ALC-0159": {
+          "composition_percent": 1.6,
+          "smiles": "CCCCCCCCCCCCCCN(CCCCCCCCCCCCCC)C(=O)COCCOC.N",
+          "category": "ionizable_lipids"
+        },
+        "DSPC": {
+          "composition_percent": 9.4,
+          "smiles": "CCCCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CCCCCCCCCCCCCCCCC",
+          "category": "helper_lipids"
+        },
+        "Cholesterol": {
+          "composition_percent": 27.7,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)C",
+          "category": "helper_lipids"
+        },
+        "CM": {
+          "composition_percent": 15.0,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)COC1C(C(C(C(O1)O)O)O)O",
+          "category": "helper_lipids"
+        }
+      },
+      "properties": {
+        "size": 118.0,
+        "polydispersity_index": 0.15,
+        "zeta_potential": -1.06,
+        "encapsulation_efficiency_": 83.0
+      },
+      "target": 0.85
+    },
+    {
+      "id": "CH-9",
+      "components": {
+        "ALC-0315": {
+          "composition_percent": 46.3,
+          "smiles": "CCCCCCCCC(CCCCCC)C(=O)OCCCCCCN(CCCCCCOC(=O)C(CCCCCC)CCCCCCCC)CCCCO",
+          "category": "ionizable_lipids"
+        },
+        "ALC-0159": {
+          "composition_percent": 1.6,
+          "smiles": "CCCCCCCCCCCCCCN(CCCCCCCCCCCCCC)C(=O)COCCOC.N",
+          "category": "ionizable_lipids"
+        },
+        "DSPC": {
+          "composition_percent": 9.4,
+          "smiles": "CCCCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CCCCCCCCCCCCCCCCC",
+          "category": "helper_lipids"
+        },
+        "Cholesterol": {
+          "composition_percent": 22.7,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)C",
+          "category": "helper_lipids"
+        },
+        "CM": {
+          "composition_percent": 20.0,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)COC1C(C(C(C(O1)O)O)O)O",
+          "category": "helper_lipids"
+        }
+      },
+      "properties": {
+        "size": 108.0,
+        "polydispersity_index": 0.127,
+        "zeta_potential": -4.32,
+        "encapsulation_efficiency_": 81.8
+      },
+      "target": 0.59
+    },
+    {
+      "id": "CH-10",
+      "components": {
+        "ALC-0315": {
+          "composition_percent": 46.3,
+          "smiles": "CCCCCCCCC(CCCCCC)C(=O)OCCCCCCN(CCCCCCOC(=O)C(CCCCCC)CCCCCCCC)CCCCO",
+          "category": "ionizable_lipids"
+        },
+        "ALC-0159": {
+          "composition_percent": 1.6,
+          "smiles": "CCCCCCCCCCCCCCN(CCCCCCCCCCCCCC)C(=O)COCCOC.N",
+          "category": "ionizable_lipids"
+        },
+        "DSPC": {
+          "composition_percent": 9.4,
+          "smiles": "CCCCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CCCCCCCCCCCCCCCCC",
+          "category": "helper_lipids"
+        },
+        "CM": {
+          "composition_percent": 42.7,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)COC1C(C(C(C(O1)O)O)O)O",
+          "category": "helper_lipids"
+        }
+      },
+      "properties": {
+        "size": 127.0,
+        "polydispersity_index": 0.128,
+        "zeta_potential": -6.54,
+        "encapsulation_efficiency_": 70.6
+      },
+      "target": 1.03
+    },
+    {
+      "id": "CH-11",
+      "components": {
+        "ALC-0315": {
+          "composition_percent": 46.3,
+          "smiles": "CCCCCCCCC(CCCCCC)C(=O)OCCCCCCN(CCCCCCOC(=O)C(CCCCCC)CCCCCCCC)CCCCO",
+          "category": "ionizable_lipids"
+        },
+        "DSPC": {
+          "composition_percent": 9.4,
+          "smiles": "CCCCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CCCCCCCCCCCCCCCCC",
+          "category": "helper_lipids"
+        },
+        "Cholesterol": {
+          "composition_percent": 42.7,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)C",
+          "category": "helper_lipids"
+        },
+        "CPSM-6": {
+          "composition_percent": 1.0,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)COC1C(C(C(C(O1)O)O)O)O",
+          "category": "helper_lipids"
+        }
+      },
+      "properties": {
+        "size": 126.0,
+        "polydispersity_index": 0.159,
+        "zeta_potential": -6.67,
+        "encapsulation_efficiency_": 65.0
+      },
+      "target": 1.96
+    },
+    {
+      "id": "CH-12",
+      "components": {
+        "ALC-0315": {
+          "composition_percent": 46.3,
+          "smiles": "CCCCCCCCC(CCCCCC)C(=O)OCCCCCCN(CCCCCCOC(=O)C(CCCCCC)CCCCCCCC)CCCCO",
+          "category": "ionizable_lipids"
+        },
+        "DSPC": {
+          "composition_percent": 9.4,
+          "smiles": "CCCCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CCCCCCCCCCCCCCCCC",
+          "category": "helper_lipids"
+        },
+        "Cholesterol": {
+          "composition_percent": 42.7,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)C",
+          "category": "helper_lipids"
+        },
+        "CPSM-6": {
+          "composition_percent": 1.2,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)COC1C(C(C(C(O1)O)O)O)O",
+          "category": "helper_lipids"
+        }
+      },
+      "properties": {
+        "size": 111.0,
+        "polydispersity_index": 0.102,
+        "zeta_potential": -5.14,
+        "encapsulation_efficiency_": 72.8
+      },
+      "target": 2.42
+    },
+    {
+      "id": "CH-13",
+      "components": {
+        "ALC-0315": {
+          "composition_percent": 46.3,
+          "smiles": "CCCCCCCCC(CCCCCC)C(=O)OCCCCCCN(CCCCCCOC(=O)C(CCCCCC)CCCCCCCC)CCCCO",
+          "category": "ionizable_lipids"
+        },
+        "DSPC": {
+          "composition_percent": 9.4,
+          "smiles": "CCCCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CCCCCCCCCCCCCCCCC",
+          "category": "helper_lipids"
+        },
+        "Cholesterol": {
+          "composition_percent": 42.7,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)C",
+          "category": "helper_lipids"
+        },
+        "CPSM-6": {
+          "composition_percent": 1.4,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)COC1C(C(C(C(O1)O)O)O)O",
+          "category": "helper_lipids"
+        }
+      },
+      "properties": {
+        "size": 140.0,
+        "polydispersity_index": 0.144,
+        "zeta_potential": -6.92,
+        "encapsulation_efficiency_": 75.6
+      },
+      "target": 2.25
+    },
+    {
+      "id": "CH-14",
+      "components": {
+        "ALC-0315": {
+          "composition_percent": 46.3,
+          "smiles": "CCCCCCCCC(CCCCCC)C(=O)OCCCCCCN(CCCCCCOC(=O)C(CCCCCC)CCCCCCCC)CCCCO",
+          "category": "ionizable_lipids"
+        },
+        "DSPC": {
+          "composition_percent": 9.4,
+          "smiles": "CCCCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CCCCCCCCCCCCCCCCC",
+          "category": "helper_lipids"
+        },
+        "Cholesterol": {
+          "composition_percent": 42.7,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)C",
+          "category": "helper_lipids"
+        },
+        "CPSM-6": {
+          "composition_percent": 1.6,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)COC1C(C(C(C(O1)O)O)O)O",
+          "category": "helper_lipids"
+        }
+      },
+      "properties": {
+        "size": 119.0,
+        "polydispersity_index": 0.123,
+        "zeta_potential": -6.82,
+        "encapsulation_efficiency_": 61.2
+      },
+      "target": 1.9
+    },
+    {
+      "id": "CH-15",
+      "components": {
+        "ALC-0315": {
+          "composition_percent": 46.3,
+          "smiles": "CCCCCCCCC(CCCCCC)C(=O)OCCCCCCN(CCCCCCOC(=O)C(CCCCCC)CCCCCCCC)CCCCO",
+          "category": "ionizable_lipids"
+        },
+        "DSPC": {
+          "composition_percent": 9.4,
+          "smiles": "CCCCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CCCCCCCCCCCCCCCCC",
+          "category": "helper_lipids"
+        },
+        "Cholesterol": {
+          "composition_percent": 42.7,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)C",
+          "category": "helper_lipids"
+        },
+        "CPSM-6": {
+          "composition_percent": 2.0,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)COC1C(C(C(C(O1)O)O)O)O",
+          "category": "helper_lipids"
+        }
+      },
+      "properties": {
+        "size": 135.0,
+        "polydispersity_index": 0.155,
+        "zeta_potential": -7.58,
+        "encapsulation_efficiency_": 53.4
+      },
+      "target": 1.26
+    },
+    {
+      "id": "CH-16",
+      "components": {
+        "ALC-0315": {
+          "composition_percent": 46.3,
+          "smiles": "CCCCCCCCC(CCCCCC)C(=O)OCCCCCCN(CCCCCCOC(=O)C(CCCCCC)CCCCCCCC)CCCCO",
+          "category": "ionizable_lipids"
+        },
+        "DSPC": {
+          "composition_percent": 9.4,
+          "smiles": "CCCCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CCCCCCCCCCCCCCCCC",
+          "category": "helper_lipids"
+        },
+        "Cholesterol": {
+          "composition_percent": 42.7,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)C",
+          "category": "helper_lipids"
+        },
+        "CPSM-15": {
+          "composition_percent": 1.0,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)CO",
+          "category": "helper_lipids"
+        }
+      },
+      "properties": {
+        "size": 114.0,
+        "polydispersity_index": 0.131,
+        "zeta_potential": -5.28,
+        "encapsulation_efficiency_": 52.0
+      },
+      "target": 14.94
+    },
+    {
+      "id": "CH-17",
+      "components": {
+        "ALC-0315": {
+          "composition_percent": 46.3,
+          "smiles": "CCCCCCCCC(CCCCCC)C(=O)OCCCCCCN(CCCCCCOC(=O)C(CCCCCC)CCCCCCCC)CCCCO",
+          "category": "ionizable_lipids"
+        },
+        "DSPC": {
+          "composition_percent": 9.4,
+          "smiles": "CCCCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CCCCCCCCCCCCCCCCC",
+          "category": "helper_lipids"
+        },
+        "Cholesterol": {
+          "composition_percent": 42.7,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)C",
+          "category": "helper_lipids"
+        },
+        "CPSM-15": {
+          "composition_percent": 1.2,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)CO",
+          "category": "helper_lipids"
+        }
+      },
+      "properties": {
+        "size": 102.0,
+        "polydispersity_index": 0.128,
+        "zeta_potential": -2.08,
+        "encapsulation_efficiency_": 57.1
+      },
+      "target": 15.18
+    },
+    {
+      "id": "CH-18",
+      "components": {
+        "ALC-0315": {
+          "composition_percent": 46.3,
+          "smiles": "CCCCCCCCC(CCCCCC)C(=O)OCCCCCCN(CCCCCCOC(=O)C(CCCCCC)CCCCCCCC)CCCCO",
+          "category": "ionizable_lipids"
+        },
+        "DSPC": {
+          "composition_percent": 9.4,
+          "smiles": "CCCCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CCCCCCCCCCCCCCCCC",
+          "category": "helper_lipids"
+        },
+        "Cholesterol": {
+          "composition_percent": 42.7,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)C",
+          "category": "helper_lipids"
+        },
+        "CPSM-15": {
+          "composition_percent": 1.4,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)CO",
+          "category": "helper_lipids"
+        }
+      },
+      "properties": {
+        "size": 119.0,
+        "polydispersity_index": 0.139,
+        "zeta_potential": -6.54,
+        "encapsulation_efficiency_": 63.8
+      },
+      "target": 15.42
+    },
+    {
+      "id": "CH-19",
+      "components": {
+        "ALC-0315": {
+          "composition_percent": 46.3,
+          "smiles": "CCCCCCCCC(CCCCCC)C(=O)OCCCCCCN(CCCCCCOC(=O)C(CCCCCC)CCCCCCCC)CCCCO",
+          "category": "ionizable_lipids"
+        },
+        "DSPC": {
+          "composition_percent": 9.4,
+          "smiles": "CCCCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CCCCCCCCCCCCCCCCC",
+          "category": "helper_lipids"
+        },
+        "Cholesterol": {
+          "composition_percent": 42.7,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)C",
+          "category": "helper_lipids"
+        },
+        "CPSM-15": {
+          "composition_percent": 1.6,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)CO",
+          "category": "helper_lipids"
+        }
+      },
+      "properties": {
+        "size": 121.0,
+        "polydispersity_index": 0.142,
+        "zeta_potential": -5.22,
+        "encapsulation_efficiency_": 62.7
+      },
+      "target": 8.6
+    },
+    {
+      "id": "CH-20",
+      "components": {
+        "ALC-0315": {
+          "composition_percent": 46.3,
+          "smiles": "CCCCCCCCC(CCCCCC)C(=O)OCCCCCCN(CCCCCCOC(=O)C(CCCCCC)CCCCCCCC)CCCCO",
+          "category": "ionizable_lipids"
+        },
+        "DSPC": {
+          "composition_percent": 9.4,
+          "smiles": "CCCCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CCCCCCCCCCCCCCCCC",
+          "category": "helper_lipids"
+        },
+        "Cholesterol": {
+          "composition_percent": 42.7,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)C",
+          "category": "helper_lipids"
+        },
+        "CPSM-15": {
+          "composition_percent": 2.0,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)CO",
+          "category": "helper_lipids"
+        }
+      },
+      "properties": {
+        "size": 125.0,
+        "polydispersity_index": 0.235,
+        "zeta_potential": -2.3,
+        "encapsulation_efficiency_": 57.4
+      },
+      "target": 8.48
+    },
+    {
+      "id": "CH-21",
+      "components": {
+        "ALC-0315": {
+          "composition_percent": 46.3,
+          "smiles": "CCCCCCCCC(CCCCCC)C(=O)OCCCCCCN(CCCCCCOC(=O)C(CCCCCC)CCCCCCCC)CCCCO",
+          "category": "ionizable_lipids"
+        },
+        "DSPC": {
+          "composition_percent": 9.4,
+          "smiles": "CCCCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CCCCCCCCCCCCCCCCC",
+          "category": "helper_lipids"
+        },
+        "Cholesterol": {
+          "composition_percent": 42.7,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)C",
+          "category": "helper_lipids"
+        },
+        "CPSM-DL-15": {
+          "composition_percent": 1.0,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)CO",
+          "category": "helper_lipids"
+        }
+      },
+      "properties": {
+        "size": 118.0,
+        "polydispersity_index": 0.131,
+        "zeta_potential": -7.78,
+        "encapsulation_efficiency_": 75.8
+      },
+      "target": 5.49
+    },
+    {
+      "id": "CH-22",
+      "components": {
+        "ALC-0315": {
+          "composition_percent": 46.3,
+          "smiles": "CCCCCCCCC(CCCCCC)C(=O)OCCCCCCN(CCCCCCOC(=O)C(CCCCCC)CCCCCCCC)CCCCO",
+          "category": "ionizable_lipids"
+        },
+        "DSPC": {
+          "composition_percent": 9.4,
+          "smiles": "CCCCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CCCCCCCCCCCCCCCCC",
+          "category": "helper_lipids"
+        },
+        "Cholesterol": {
+          "composition_percent": 42.7,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)C",
+          "category": "helper_lipids"
+        },
+        "CPSM-DL-15": {
+          "composition_percent": 1.2,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)CO",
+          "category": "helper_lipids"
+        }
+      },
+      "properties": {
+        "size": 119.0,
+        "polydispersity_index": 0.119,
+        "zeta_potential": -6.28,
+        "encapsulation_efficiency_": 77.1
+      },
+      "target": 3.5
+    },
+    {
+      "id": "CH-23",
+      "components": {
+        "ALC-0315": {
+          "composition_percent": 46.3,
+          "smiles": "CCCCCCCCC(CCCCCC)C(=O)OCCCCCCN(CCCCCCOC(=O)C(CCCCCC)CCCCCCCC)CCCCO",
+          "category": "ionizable_lipids"
+        },
+        "DSPC": {
+          "composition_percent": 9.4,
+          "smiles": "CCCCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CCCCCCCCCCCCCCCCC",
+          "category": "helper_lipids"
+        },
+        "Cholesterol": {
+          "composition_percent": 42.7,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)C",
+          "category": "helper_lipids"
+        },
+        "CPSM-DL-15": {
+          "composition_percent": 1.4,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)CO",
+          "category": "helper_lipids"
+        }
+      },
+      "properties": {
+        "size": 115.0,
+        "polydispersity_index": 0.117,
+        "zeta_potential": -7.6,
+        "encapsulation_efficiency_": 83.7
+      },
+      "target": 7.64
+    },
+    {
+      "id": "CH-24",
+      "components": {
+        "ALC-0315": {
+          "composition_percent": 46.3,
+          "smiles": "CCCCCCCCC(CCCCCC)C(=O)OCCCCCCN(CCCCCCOC(=O)C(CCCCCC)CCCCCCCC)CCCCO",
+          "category": "ionizable_lipids"
+        },
+        "DSPC": {
+          "composition_percent": 9.4,
+          "smiles": "CCCCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CCCCCCCCCCCCCCCCC",
+          "category": "helper_lipids"
+        },
+        "Cholesterol": {
+          "composition_percent": 42.7,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)C",
+          "category": "helper_lipids"
+        },
+        "CPSM-DL-15": {
+          "composition_percent": 1.6,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)CO",
+          "category": "helper_lipids"
+        }
+      },
+      "properties": {
+        "size": 134.0,
+        "polydispersity_index": 0.14,
+        "zeta_potential": -3.51,
+        "encapsulation_efficiency_": 85.4
+      },
+      "target": 2.82
+    },
+    {
+      "id": "CH-25",
+      "components": {
+        "ALC-0315": {
+          "composition_percent": 46.3,
+          "smiles": "CCCCCCCCC(CCCCCC)C(=O)OCCCCCCN(CCCCCCOC(=O)C(CCCCCC)CCCCCCCC)CCCCO",
+          "category": "ionizable_lipids"
+        },
+        "DSPC": {
+          "composition_percent": 9.4,
+          "smiles": "CCCCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CCCCCCCCCCCCCCCCC",
+          "category": "helper_lipids"
+        },
+        "Cholesterol": {
+          "composition_percent": 42.7,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)C",
+          "category": "helper_lipids"
+        },
+        "CPSM-DL-15": {
+          "composition_percent": 2.0,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)CO",
+          "category": "helper_lipids"
+        }
+      },
+      "properties": {
+        "size": 180.0,
+        "polydispersity_index": 0.304,
+        "zeta_potential": -5.89,
+        "encapsulation_efficiency_": 74.8
+      },
+      "target": 2.59
+    },
+    {
+      "id": "CH-26",
+      "components": {
+        "ALC-0315": {
+          "composition_percent": 46.3,
+          "smiles": "CCCCCCCCC(CCCCCC)C(=O)OCCCCCCN(CCCCCCOC(=O)C(CCCCCC)CCCCCCCC)CCCCO",
+          "category": "ionizable_lipids"
+        },
+        "DSPC": {
+          "composition_percent": 9.4,
+          "smiles": "CCCCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CCCCCCCCCCCCCCCCC",
+          "category": "helper_lipids"
+        },
+        "Cholesterol": {
+          "composition_percent": 42.7,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)C",
+          "category": "helper_lipids"
+        },
+        "CM": {
+          "composition_percent": 1.6,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)COC1C(C(C(C(O1)O)O)O)O",
+          "category": "helper_lipids"
+        }
+      },
+      "properties": {
+        "size": 119.0,
+        "polydispersity_index": 0.13,
+        "zeta_potential": -9.83,
+        "encapsulation_efficiency_": 77.8
+      },
+      "target": 6.86
+    },
+    {
+      "id": "CH-27",
+      "components": {
+        "ALC-0315": {
+          "composition_percent": 46.3,
+          "smiles": "CCCCCCCCC(CCCCCC)C(=O)OCCCCCCN(CCCCCCOC(=O)C(CCCCCC)CCCCCCCC)CCCCO",
+          "category": "ionizable_lipids"
+        },
+        "DSPC": {
+          "composition_percent": 9.4,
+          "smiles": "CCCCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CCCCCCCCCCCCCCCCC",
+          "category": "helper_lipids"
+        },
+        "Cholesterol": {
+          "composition_percent": 37.7,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)C",
+          "category": "helper_lipids"
+        },
+        "CM": {
+          "composition_percent": 6.6,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)COC1C(C(C(C(O1)O)O)O)O",
+          "category": "helper_lipids"
+        }
+      },
+      "properties": {
+        "size": 114.0,
+        "polydispersity_index": 0.116,
+        "zeta_potential": -8.37,
+        "encapsulation_efficiency_": 69.3
+      },
+      "target": 7.6
+    },
+    {
+      "id": "CH-28",
+      "components": {
+        "ALC-0315": {
+          "composition_percent": 46.3,
+          "smiles": "CCCCCCCCC(CCCCCC)C(=O)OCCCCCCN(CCCCCCOC(=O)C(CCCCCC)CCCCCCCC)CCCCO",
+          "category": "ionizable_lipids"
+        },
+        "DSPC": {
+          "composition_percent": 9.4,
+          "smiles": "CCCCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CCCCCCCCCCCCCCCCC",
+          "category": "helper_lipids"
+        },
+        "Cholesterol": {
+          "composition_percent": 32.7,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)C",
+          "category": "helper_lipids"
+        },
+        "CM": {
+          "composition_percent": 11.6,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)COC1C(C(C(C(O1)O)O)O)O",
+          "category": "helper_lipids"
+        }
+      },
+      "properties": {
+        "size": 105.0,
+        "polydispersity_index": 0.125,
+        "zeta_potential": -8.0,
+        "encapsulation_efficiency_": 81.2
+      },
+      "target": 6.11
+    },
+    {
+      "id": "CH-29",
+      "components": {
+        "ALC-0315": {
+          "composition_percent": 46.3,
+          "smiles": "CCCCCCCCC(CCCCCC)C(=O)OCCCCCCN(CCCCCCOC(=O)C(CCCCCC)CCCCCCCC)CCCCO",
+          "category": "ionizable_lipids"
+        },
+        "DSPC": {
+          "composition_percent": 9.4,
+          "smiles": "CCCCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CCCCCCCCCCCCCCCCC",
+          "category": "helper_lipids"
+        },
+        "Cholesterol": {
+          "composition_percent": 27.7,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)C",
+          "category": "helper_lipids"
+        },
+        "CM": {
+          "composition_percent": 16.6,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)COC1C(C(C(C(O1)O)O)O)O",
+          "category": "helper_lipids"
+        }
+      },
+      "properties": {
+        "size": 115.0,
+        "polydispersity_index": 0.141,
+        "zeta_potential": -8.11,
+        "encapsulation_efficiency_": 77.3
+      },
+      "target": 4.06
+    },
+    {
+      "id": "CH-30",
+      "components": {
+        "ALC-0315": {
+          "composition_percent": 46.3,
+          "smiles": "CCCCCCCCC(CCCCCC)C(=O)OCCCCCCN(CCCCCCOC(=O)C(CCCCCC)CCCCCCCC)CCCCO",
+          "category": "ionizable_lipids"
+        },
+        "DSPC": {
+          "composition_percent": 9.4,
+          "smiles": "CCCCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CCCCCCCCCCCCCCCCC",
+          "category": "helper_lipids"
+        },
+        "Cholesterol": {
+          "composition_percent": 22.7,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)C",
+          "category": "helper_lipids"
+        },
+        "CM": {
+          "composition_percent": 21.6,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)COC1C(C(C(C(O1)O)O)O)O",
+          "category": "helper_lipids"
+        }
+      },
+      "properties": {
+        "size": 106.0,
+        "polydispersity_index": 0.144,
+        "zeta_potential": -8.23,
+        "encapsulation_efficiency_": 48.6
+      },
+      "target": 8.03
+    },
+    {
+      "id": "CH-31",
+      "components": {
+        "ALC-0315": {
+          "composition_percent": 46.3,
+          "smiles": "CCCCCCCCC(CCCCCC)C(=O)OCCCCCCN(CCCCCCOC(=O)C(CCCCCC)CCCCCCCC)CCCCO",
+          "category": "ionizable_lipids"
+        },
+        "DSPC": {
+          "composition_percent": 9.4,
+          "smiles": "CCCCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CCCCCCCCCCCCCCCCC",
+          "category": "helper_lipids"
+        },
+        "CM": {
+          "composition_percent": 44.3,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)COC1C(C(C(C(O1)O)O)O)O",
+          "category": "helper_lipids"
+        }
+      },
+      "properties": {
+        "size": 146.0,
+        "polydispersity_index": 0.242,
+        "zeta_potential": -6.29,
+        "encapsulation_efficiency_": 46.6
+      },
+      "target": 3.01
+    },
+    {
+      "id": "CH-32",
+      "components": {
+        "ALC-0315": {
+          "composition_percent": 46.3,
+          "smiles": "CCCCCCCCC(CCCCCC)C(=O)OCCCCCCN(CCCCCCOC(=O)C(CCCCCC)CCCCCCCC)CCCCO",
+          "category": "ionizable_lipids"
+        },
+        "DSPC": {
+          "composition_percent": 9.4,
+          "smiles": "CCCCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CCCCCCCCCCCCCCCCC",
+          "category": "helper_lipids"
+        },
+        "Cholesterol": {
+          "composition_percent": 41.3,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)C",
+          "category": "helper_lipids"
+        },
+        "CPSM-15": {
+          "composition_percent": 1.4,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)CO",
+          "category": "helper_lipids"
+        },
+        "CM": {
+          "composition_percent": 1.6,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)COC1C(C(C(C(O1)O)O)O)O",
+          "category": "helper_lipids"
+        }
+      },
+      "properties": {
+        "size": 116.0,
+        "polydispersity_index": 0.164,
+        "zeta_potential": -6.17,
+        "encapsulation_efficiency_": 68.7
+      },
+      "target": 4.83
+    },
+    {
+      "id": "CH-33",
+      "components": {
+        "ALC-0315": {
+          "composition_percent": 46.3,
+          "smiles": "CCCCCCCCC(CCCCCC)C(=O)OCCCCCCN(CCCCCCOC(=O)C(CCCCCC)CCCCCCCC)CCCCO",
+          "category": "ionizable_lipids"
+        },
+        "DSPC": {
+          "composition_percent": 9.4,
+          "smiles": "CCCCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CCCCCCCCCCCCCCCCC",
+          "category": "helper_lipids"
+        },
+        "Cholesterol": {
+          "composition_percent": 37.9,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)C",
+          "category": "helper_lipids"
+        },
+        "CPSM-15": {
+          "composition_percent": 1.4,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)CO",
+          "category": "helper_lipids"
+        },
+        "CM": {
+          "composition_percent": 5.0,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)COC1C(C(C(C(O1)O)O)O)O",
+          "category": "helper_lipids"
+        }
+      },
+      "properties": {
+        "size": 120.0,
+        "polydispersity_index": 0.146,
+        "zeta_potential": -7.06,
+        "encapsulation_efficiency_": 72.0
+      },
+      "target": 5.88
+    },
+    {
+      "id": "CH-34",
+      "components": {
+        "ALC-0315": {
+          "composition_percent": 46.3,
+          "smiles": "CCCCCCCCC(CCCCCC)C(=O)OCCCCCCN(CCCCCCOC(=O)C(CCCCCC)CCCCCCCC)CCCCO",
+          "category": "ionizable_lipids"
+        },
+        "DSPC": {
+          "composition_percent": 9.4,
+          "smiles": "CCCCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CCCCCCCCCCCCCCCCC",
+          "category": "helper_lipids"
+        },
+        "Cholesterol": {
+          "composition_percent": 32.9,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)C",
+          "category": "helper_lipids"
+        },
+        "CPSM-15": {
+          "composition_percent": 1.4,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)CO",
+          "category": "helper_lipids"
+        },
+        "CM": {
+          "composition_percent": 10.0,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)COC1C(C(C(C(O1)O)O)O)O",
+          "category": "helper_lipids"
+        }
+      },
+      "properties": {
+        "size": 113.5,
+        "polydispersity_index": 0.15,
+        "zeta_potential": -3.32,
+        "encapsulation_efficiency_": 72.7
+      },
+      "target": 5.6
+    },
+    {
+      "id": "CH-35",
+      "components": {
+        "ALC-0315": {
+          "composition_percent": 46.3,
+          "smiles": "CCCCCCCCC(CCCCCC)C(=O)OCCCCCCN(CCCCCCOC(=O)C(CCCCCC)CCCCCCCC)CCCCO",
+          "category": "ionizable_lipids"
+        },
+        "DSPC": {
+          "composition_percent": 9.4,
+          "smiles": "CCCCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CCCCCCCCCCCCCCCCC",
+          "category": "helper_lipids"
+        },
+        "Cholesterol": {
+          "composition_percent": 27.9,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)C",
+          "category": "helper_lipids"
+        },
+        "CPSM-15": {
+          "composition_percent": 1.4,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)CO",
+          "category": "helper_lipids"
+        },
+        "CM": {
+          "composition_percent": 15.0,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)COC1C(C(C(C(O1)O)O)O)O",
+          "category": "helper_lipids"
+        }
+      },
+      "properties": {
+        "size": 108.0,
+        "polydispersity_index": 0.15,
+        "zeta_potential": -3.84,
+        "encapsulation_efficiency_": 77.4
+      },
+      "target": 4.35
+    },
+    {
+      "id": "CH-36",
+      "components": {
+        "ALC-0315": {
+          "composition_percent": 46.3,
+          "smiles": "CCCCCCCCC(CCCCCC)C(=O)OCCCCCCN(CCCCCCOC(=O)C(CCCCCC)CCCCCCCC)CCCCO",
+          "category": "ionizable_lipids"
+        },
+        "DSPC": {
+          "composition_percent": 9.4,
+          "smiles": "CCCCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CCCCCCCCCCCCCCCCC",
+          "category": "helper_lipids"
+        },
+        "Cholesterol": {
+          "composition_percent": 22.9,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)C",
+          "category": "helper_lipids"
+        },
+        "CPSM-15": {
+          "composition_percent": 1.4,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)CO",
+          "category": "helper_lipids"
+        },
+        "CM": {
+          "composition_percent": 20.0,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)COC1C(C(C(C(O1)O)O)O)O",
+          "category": "helper_lipids"
+        }
+      },
+      "properties": {
+        "size": 105.0,
+        "polydispersity_index": 0.102,
+        "zeta_potential": -4.75,
+        "encapsulation_efficiency_": 76.1
+      },
+      "target": 4.63
+    },
+    {
+      "id": "ALC-0159_ 0.5",
+      "components": {
+        "ALC-0315": {
+          "composition_percent": 46.3,
+          "smiles": "CCCCCCCCC(CCCCCC)C(=O)OCCCCCCN(CCCCCCOC(=O)C(CCCCCC)CCCCCCCC)CCCCO",
+          "category": "ionizable_lipids"
+        },
+        "ALC-0159": {
+          "composition_percent": 0.5,
+          "smiles": "CCCCCCCCCCCCCCN(CCCCCCCCCCCCCC)C(=O)COCCOC.N",
+          "category": "ionizable_lipids"
+        },
+        "DSPC": {
+          "composition_percent": 9.4,
+          "smiles": "CCCCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CCCCCCCCCCCCCCCCC",
+          "category": "helper_lipids"
+        },
+        "Cholesterol": {
+          "composition_percent": 44.3,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)C",
+          "category": "helper_lipids"
+        }
+      },
+      "properties": {
+        "size": 180.5,
+        "polydispersity_index": 0.2,
+        "zeta_potential": -2.6,
+        "encapsulation_efficiency_": 77.7
+      },
+      "target": 1.870899839
+    },
+    {
+      "id": "DMG-C-PEG_ 0.5",
+      "components": {
+        "ALC-0315": {
+          "composition_percent": 46.3,
+          "smiles": "CCCCCCCCC(CCCCCC)C(=O)OCCCCCCN(CCCCCCOC(=O)C(CCCCCC)CCCCCCCC)CCCCO",
+          "category": "ionizable_lipids"
+        },
+        "DSPC": {
+          "composition_percent": 9.4,
+          "smiles": "CCCCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CCCCCCCCCCCCCCCCC",
+          "category": "helper_lipids"
+        },
+        "Cholesterol": {
+          "composition_percent": 43.8,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)C",
+          "category": "helper_lipids"
+        },
+        "DMG-C-PEG": {
+          "composition_percent": 0.5,
+          "smiles": "CCCCCCCCCCCC(=O)OCC(OC(=O)CCCCCCCCCCCC)COCCOCCO",
+          "category": "peg_lipids"
+        }
+      },
+      "properties": {
+        "size": 170.2,
+        "polydispersity_index": 0.2,
+        "zeta_potential": -1.2,
+        "encapsulation_efficiency_": 82.1
+      },
+      "target": 1.294023615
+    },
+    {
+      "id": "DMG-PEG_ 0.5",
+      "components": {
+        "ALC-0315": {
+          "composition_percent": 46.3,
+          "smiles": "CCCCCCCCC(CCCCCC)C(=O)OCCCCCCN(CCCCCCOC(=O)C(CCCCCC)CCCCCCCC)CCCCO",
+          "category": "ionizable_lipids"
+        },
+        "DSPC": {
+          "composition_percent": 9.4,
+          "smiles": "CCCCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CCCCCCCCCCCCCCCCC",
+          "category": "helper_lipids"
+        },
+        "Cholesterol": {
+          "composition_percent": 43.8,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)C",
+          "category": "helper_lipids"
+        },
+        "DMG-PEG": {
+          "composition_percent": 0.5,
+          "smiles": "CCCCCCCCCCCC(=O)OCC(OC(=O)CCCCCCCCCCCC)COCCOCCO",
+          "category": "peg_lipids"
+        }
+      },
+      "properties": {
+        "size": 173.3,
+        "polydispersity_index": 0.1,
+        "zeta_potential": -6.8,
+        "encapsulation_efficiency_": 83.9
+      },
+      "target": 1.298381229
+    },
+    {
+      "id": "DSG-PEG_ 0.5",
+      "components": {
+        "ALC-0315": {
+          "composition_percent": 46.3,
+          "smiles": "CCCCCCCCC(CCCCCC)C(=O)OCCCCCCN(CCCCCCOC(=O)C(CCCCCC)CCCCCCCC)CCCCO",
+          "category": "ionizable_lipids"
+        },
+        "DSPC": {
+          "composition_percent": 9.4,
+          "smiles": "CCCCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CCCCCCCCCCCCCCCCC",
+          "category": "helper_lipids"
+        },
+        "Cholesterol": {
+          "composition_percent": 43.8,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)C",
+          "category": "helper_lipids"
+        },
+        "DSG-PEG": {
+          "composition_percent": 0.5,
+          "smiles": "CCCCCCCCCCCCCCCCCC(=O)OCC(COCCOCCOC)OC(=O)CCCCCCCCCCCCCCCCC",
+          "category": "peg_lipids"
+        }
+      },
+      "properties": {
+        "size": 167.2,
+        "polydispersity_index": 0.1,
+        "zeta_potential": -0.9,
+        "encapsulation_efficiency_": 82.4
+      },
+      "target": 0.272321489
+    },
+    {
+      "id": "C8-Ceramide-PEG_ 0.5",
+      "components": {
+        "ALC-0315": {
+          "composition_percent": 46.3,
+          "smiles": "CCCCCCCCC(CCCCCC)C(=O)OCCCCCCN(CCCCCCOC(=O)C(CCCCCC)CCCCCCCC)CCCCO",
+          "category": "ionizable_lipids"
+        },
+        "DSPC": {
+          "composition_percent": 9.4,
+          "smiles": "CCCCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CCCCCCCCCCCCCCCCC",
+          "category": "helper_lipids"
+        },
+        "Cholesterol": {
+          "composition_percent": 43.8,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)C",
+          "category": "helper_lipids"
+        },
+        "C8-Ceramide-PEG": {
+          "composition_percent": 0.5,
+          "smiles": "CCCCCCCCCCCCC/C=C/[C@H]([C@H](COC(=O)CCC(=O)OCCOC)NC(=O)CCCCCCC)O",
+          "category": "ceramide_peg"
+        }
+      },
+      "properties": {
+        "size": 176.3,
+        "polydispersity_index": 0.2,
+        "zeta_potential": -4.9,
+        "encapsulation_efficiency_": 77.7
+      },
+      "target": 1.955074844
+    },
+    {
+      "id": "C16-Ceramide-PEG_ 0.5",
+      "components": {
+        "ALC-0315": {
+          "composition_percent": 46.3,
+          "smiles": "CCCCCCCCC(CCCCCC)C(=O)OCCCCCCN(CCCCCCOC(=O)C(CCCCCC)CCCCCCCC)CCCCO",
+          "category": "ionizable_lipids"
+        },
+        "DSPC": {
+          "composition_percent": 9.4,
+          "smiles": "CCCCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CCCCCCCCCCCCCCCCC",
+          "category": "helper_lipids"
+        },
+        "Cholesterol": {
+          "composition_percent": 43.8,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)C",
+          "category": "helper_lipids"
+        },
+        "C16-Ceramide-PEG": {
+          "composition_percent": 0.5,
+          "smiles": "CCCCCCCCCCCCCCCC(=O)N[C@@H](COC(=O)CCC(=O)OCCOC)[C@@H](/C=C/CCCCCCCCCCCCC)O",
+          "category": "ceramide_peg"
+        }
+      },
+      "properties": {
+        "size": 190.0,
+        "polydispersity_index": 0.2,
+        "zeta_potential": -1.8,
+        "encapsulation_efficiency_": 81.6
+      },
+      "target": 1.050021947
+    },
+    {
+      "id": "DMPE-PEG_ 0.5",
+      "components": {
+        "ALC-0315": {
+          "composition_percent": 46.3,
+          "smiles": "CCCCCCCCC(CCCCCC)C(=O)OCCCCCCN(CCCCCCOC(=O)C(CCCCCC)CCCCCCCC)CCCCO",
+          "category": "ionizable_lipids"
+        },
+        "DSPC": {
+          "composition_percent": 9.4,
+          "smiles": "CCCCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CCCCCCCCCCCCCCCCC",
+          "category": "helper_lipids"
+        },
+        "Cholesterol": {
+          "composition_percent": 43.8,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)C",
+          "category": "helper_lipids"
+        },
+        "DMPE-PEG": {
+          "composition_percent": 0.5,
+          "smiles": "CCCCCCCCCCCC(=O)OCC[C@H](COP(=O)(O)OCCNCCOCCOCCO)OC(=O)CCCCCCCCCCCC",
+          "category": "phospholipid_peg"
+        }
+      },
+      "properties": {
+        "size": 172.9,
+        "polydispersity_index": 0.1,
+        "zeta_potential": -0.8,
+        "encapsulation_efficiency_": 85.8
+      },
+      "target": 1.802214473
+    },
+    {
+      "id": "DSPE-PEG_ 0.5",
+      "components": {
+        "ALC-0315": {
+          "composition_percent": 46.3,
+          "smiles": "CCCCCCCCC(CCCCCC)C(=O)OCCCCCCN(CCCCCCOC(=O)C(CCCCCC)CCCCCCCC)CCCCO",
+          "category": "ionizable_lipids"
+        },
+        "DSPC": {
+          "composition_percent": 9.4,
+          "smiles": "CCCCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CCCCCCCCCCCCCCCCC",
+          "category": "helper_lipids"
+        },
+        "Cholesterol": {
+          "composition_percent": 43.8,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)C",
+          "category": "helper_lipids"
+        },
+        "DSPE-PEG": {
+          "composition_percent": 0.5,
+          "smiles": "CCCCCCCCCCCCCCCCCC(=O)OCC[C@H](COP(=O)(O)OCCNCCOCCOCCO)OC(=O)CCCCCCCCCCCCCCCCCC",
+          "category": "phospholipid_peg"
+        }
+      },
+      "properties": {
+        "size": 165.1,
+        "polydispersity_index": 0.1,
+        "zeta_potential": -2.9,
+        "encapsulation_efficiency_": 81.1
+      },
+      "target": 0.251407672
+    },
+    {
+      "id": "ALC-0159_ 1",
+      "components": {
+        "ALC-0315": {
+          "composition_percent": 46.3,
+          "smiles": "CCCCCCCCC(CCCCCC)C(=O)OCCCCCCN(CCCCCCOC(=O)C(CCCCCC)CCCCCCCC)CCCCO",
+          "category": "ionizable_lipids"
+        },
+        "ALC-0159": {
+          "composition_percent": 1.0,
+          "smiles": "CCCCCCCCCCCCCCN(CCCCCCCCCCCCCC)C(=O)COCCOC.N",
+          "category": "ionizable_lipids"
+        },
+        "DSPC": {
+          "composition_percent": 9.4,
+          "smiles": "CCCCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CCCCCCCCCCCCCCCCC",
+          "category": "helper_lipids"
+        },
+        "Cholesterol": {
+          "composition_percent": 44.3,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)C",
+          "category": "helper_lipids"
+        }
+      },
+      "properties": {
+        "size": 183.2,
+        "polydispersity_index": 0.2,
+        "zeta_potential": -2.4,
+        "encapsulation_efficiency_": 84.5
+      },
+      "target": 1.182187817
+    },
+    {
+      "id": "DMG-C-PEG_ 1",
+      "components": {
+        "ALC-0315": {
+          "composition_percent": 46.3,
+          "smiles": "CCCCCCCCC(CCCCCC)C(=O)OCCCCCCN(CCCCCCOC(=O)C(CCCCCC)CCCCCCCC)CCCCO",
+          "category": "ionizable_lipids"
+        },
+        "DSPC": {
+          "composition_percent": 9.4,
+          "smiles": "CCCCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CCCCCCCCCCCCCCCCC",
+          "category": "helper_lipids"
+        },
+        "Cholesterol": {
+          "composition_percent": 43.3,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)C",
+          "category": "helper_lipids"
+        },
+        "DMG-C-PEG": {
+          "composition_percent": 1.0,
+          "smiles": "CCCCCCCCCCCC(=O)OCC(OC(=O)CCCCCCCCCCCC)COCCOCCO",
+          "category": "peg_lipids"
+        }
+      },
+      "properties": {
+        "size": 168.3,
+        "polydispersity_index": 0.1,
+        "zeta_potential": -2.2,
+        "encapsulation_efficiency_": 84.4
+      },
+      "target": 1.107506242
+    },
+    {
+      "id": "DMG-PEG_ 1",
+      "components": {
+        "ALC-0315": {
+          "composition_percent": 46.3,
+          "smiles": "CCCCCCCCC(CCCCCC)C(=O)OCCCCCCN(CCCCCCOC(=O)C(CCCCCC)CCCCCCCC)CCCCO",
+          "category": "ionizable_lipids"
+        },
+        "DSPC": {
+          "composition_percent": 9.4,
+          "smiles": "CCCCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CCCCCCCCCCCCCCCCC",
+          "category": "helper_lipids"
+        },
+        "Cholesterol": {
+          "composition_percent": 43.3,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)C",
+          "category": "helper_lipids"
+        },
+        "DMG-PEG": {
+          "composition_percent": 1.0,
+          "smiles": "CCCCCCCCCCCC(=O)OCC(OC(=O)CCCCCCCCCCCC)COCCOCCO",
+          "category": "peg_lipids"
+        }
+      },
+      "properties": {
+        "size": 177.3,
+        "polydispersity_index": 0.2,
+        "zeta_potential": -6.7,
+        "encapsulation_efficiency_": 79.0
+      },
+      "target": 0.763868836
+    },
+    {
+      "id": "DSG-PEG_ 1",
+      "components": {
+        "ALC-0315": {
+          "composition_percent": 46.3,
+          "smiles": "CCCCCCCCC(CCCCCC)C(=O)OCCCCCCN(CCCCCCOC(=O)C(CCCCCC)CCCCCCCC)CCCCO",
+          "category": "ionizable_lipids"
+        },
+        "DSPC": {
+          "composition_percent": 9.4,
+          "smiles": "CCCCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CCCCCCCCCCCCCCCCC",
+          "category": "helper_lipids"
+        },
+        "Cholesterol": {
+          "composition_percent": 43.3,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)C",
+          "category": "helper_lipids"
+        },
+        "DSG-PEG": {
+          "composition_percent": 1.0,
+          "smiles": "CCCCCCCCCCCCCCCCCC(=O)OCC(COCCOCCOC)OC(=O)CCCCCCCCCCCCCCCCC",
+          "category": "peg_lipids"
+        }
+      },
+      "properties": {
+        "size": 172.4,
+        "polydispersity_index": 0.1,
+        "zeta_potential": -3.0,
+        "encapsulation_efficiency_": 83.6
+      },
+      "target": 0.089677804
+    },
+    {
+      "id": "C8-Ceramide-PEG_ 1",
+      "components": {
+        "ALC-0315": {
+          "composition_percent": 46.3,
+          "smiles": "CCCCCCCCC(CCCCCC)C(=O)OCCCCCCN(CCCCCCOC(=O)C(CCCCCC)CCCCCCCC)CCCCO",
+          "category": "ionizable_lipids"
+        },
+        "DSPC": {
+          "composition_percent": 9.4,
+          "smiles": "CCCCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CCCCCCCCCCCCCCCCC",
+          "category": "helper_lipids"
+        },
+        "Cholesterol": {
+          "composition_percent": 43.3,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)C",
+          "category": "helper_lipids"
+        },
+        "C8-Ceramide-PEG": {
+          "composition_percent": 1.0,
+          "smiles": "CCCCCCCCCCCCC/C=C/[C@H]([C@H](COC(=O)CCC(=O)OCCOC)NC(=O)CCCCCCC)O",
+          "category": "ceramide_peg"
+        }
+      },
+      "properties": {
+        "size": 182.2,
+        "polydispersity_index": 0.1,
+        "zeta_potential": -3.3,
+        "encapsulation_efficiency_": 71.7
+      },
+      "target": 2.050951307
+    },
+    {
+      "id": "C16-Ceramide-PEG_ 1",
+      "components": {
+        "ALC-0315": {
+          "composition_percent": 46.3,
+          "smiles": "CCCCCCCCC(CCCCCC)C(=O)OCCCCCCN(CCCCCCOC(=O)C(CCCCCC)CCCCCCCC)CCCCO",
+          "category": "ionizable_lipids"
+        },
+        "DSPC": {
+          "composition_percent": 9.4,
+          "smiles": "CCCCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CCCCCCCCCCCCCCCCC",
+          "category": "helper_lipids"
+        },
+        "Cholesterol": {
+          "composition_percent": 43.3,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)C",
+          "category": "helper_lipids"
+        },
+        "C16-Ceramide-PEG": {
+          "composition_percent": 1.0,
+          "smiles": "CCCCCCCCCCCCCCCC(=O)N[C@@H](COC(=O)CCC(=O)OCCOC)[C@@H](/C=C/CCCCCCCCCCCCC)O",
+          "category": "ceramide_peg"
+        }
+      },
+      "properties": {
+        "size": 174.1,
+        "polydispersity_index": 0.2,
+        "zeta_potential": -2.5,
+        "encapsulation_efficiency_": 84.0
+      },
+      "target": 0.532585679
+    },
+    {
+      "id": "DMPE-PEG_ 1",
+      "components": {
+        "ALC-0315": {
+          "composition_percent": 46.3,
+          "smiles": "CCCCCCCCC(CCCCCC)C(=O)OCCCCCCN(CCCCCCOC(=O)C(CCCCCC)CCCCCCCC)CCCCO",
+          "category": "ionizable_lipids"
+        },
+        "DSPC": {
+          "composition_percent": 9.4,
+          "smiles": "CCCCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CCCCCCCCCCCCCCCCC",
+          "category": "helper_lipids"
+        },
+        "Cholesterol": {
+          "composition_percent": 43.3,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)C",
+          "category": "helper_lipids"
+        },
+        "DMPE-PEG": {
+          "composition_percent": 1.0,
+          "smiles": "CCCCCCCCCCCC(=O)OCC[C@H](COP(=O)(O)OCCNCCOCCOCCO)OC(=O)CCCCCCCCCCCC",
+          "category": "phospholipid_peg"
+        }
+      },
+      "properties": {
+        "size": 171.0,
+        "polydispersity_index": 0.1,
+        "zeta_potential": 0.9,
+        "encapsulation_efficiency_": 76.3
+      },
+      "target": 0.855795268
+    },
+    {
+      "id": "DSPE-PEG_ 1",
+      "components": {
+        "ALC-0315": {
+          "composition_percent": 46.3,
+          "smiles": "CCCCCCCCC(CCCCCC)C(=O)OCCCCCCN(CCCCCCOC(=O)C(CCCCCC)CCCCCCCC)CCCCO",
+          "category": "ionizable_lipids"
+        },
+        "DSPC": {
+          "composition_percent": 9.4,
+          "smiles": "CCCCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CCCCCCCCCCCCCCCCC",
+          "category": "helper_lipids"
+        },
+        "Cholesterol": {
+          "composition_percent": 43.3,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)C",
+          "category": "helper_lipids"
+        },
+        "DSPE-PEG": {
+          "composition_percent": 1.0,
+          "smiles": "CCCCCCCCCCCCCCCCCC(=O)OCC[C@H](COP(=O)(O)OCCNCCOCCOCCO)OC(=O)CCCCCCCCCCCCCCCCCC",
+          "category": "phospholipid_peg"
+        }
+      },
+      "properties": {
+        "size": 181.1,
+        "polydispersity_index": 0.2,
+        "zeta_potential": -1.9,
+        "encapsulation_efficiency_": 82.9
+      },
+      "target": 0.047466475
+    },
+    {
+      "id": "ALC-0159_ 1.6",
+      "components": {
+        "ALC-0315": {
+          "composition_percent": 46.3,
+          "smiles": "CCCCCCCCC(CCCCCC)C(=O)OCCCCCCN(CCCCCCOC(=O)C(CCCCCC)CCCCCCCC)CCCCO",
+          "category": "ionizable_lipids"
+        },
+        "ALC-0159": {
+          "composition_percent": 1.6,
+          "smiles": "CCCCCCCCCCCCCCN(CCCCCCCCCCCCCC)C(=O)COCCOC.N",
+          "category": "ionizable_lipids"
+        },
+        "DSPC": {
+          "composition_percent": 9.4,
+          "smiles": "CCCCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CCCCCCCCCCCCCCCCC",
+          "category": "helper_lipids"
+        },
+        "Cholesterol": {
+          "composition_percent": 44.3,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)C",
+          "category": "helper_lipids"
+        }
+      },
+      "properties": {
+        "size": 183.3,
+        "polydispersity_index": 0.2,
+        "zeta_potential": -4.3,
+        "encapsulation_efficiency_": 76.4
+      },
+      "target": 1.0
+    },
+    {
+      "id": "DMG-C-PEG_ 1.6",
+      "components": {
+        "ALC-0315": {
+          "composition_percent": 46.3,
+          "smiles": "CCCCCCCCC(CCCCCC)C(=O)OCCCCCCN(CCCCCCOC(=O)C(CCCCCC)CCCCCCCC)CCCCO",
+          "category": "ionizable_lipids"
+        },
+        "DSPC": {
+          "composition_percent": 9.4,
+          "smiles": "CCCCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CCCCCCCCCCCCCCCCC",
+          "category": "helper_lipids"
+        },
+        "Cholesterol": {
+          "composition_percent": 44.3,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)C",
+          "category": "helper_lipids"
+        },
+        "DMG-C-PEG": {
+          "composition_percent": 1.6,
+          "smiles": "CCCCCCCCCCCC(=O)OCC(OC(=O)CCCCCCCCCCCC)COCCOCCO",
+          "category": "peg_lipids"
+        }
+      },
+      "properties": {
+        "size": 178.1,
+        "polydispersity_index": 0.1,
+        "zeta_potential": -1.8,
+        "encapsulation_efficiency_": 79.7
+      },
+      "target": 0.954079905
+    },
+    {
+      "id": "DMG-PEG_ 1.6",
+      "components": {
+        "ALC-0315": {
+          "composition_percent": 46.3,
+          "smiles": "CCCCCCCCC(CCCCCC)C(=O)OCCCCCCN(CCCCCCOC(=O)C(CCCCCC)CCCCCCCC)CCCCO",
+          "category": "ionizable_lipids"
+        },
+        "DSPC": {
+          "composition_percent": 9.4,
+          "smiles": "CCCCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CCCCCCCCCCCCCCCCC",
+          "category": "helper_lipids"
+        },
+        "Cholesterol": {
+          "composition_percent": 44.3,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)C",
+          "category": "helper_lipids"
+        },
+        "DMG-PEG": {
+          "composition_percent": 1.6,
+          "smiles": "CCCCCCCCCCCC(=O)OCC(OC(=O)CCCCCCCCCCCC)COCCOCCO",
+          "category": "peg_lipids"
+        }
+      },
+      "properties": {
+        "size": 174.0,
+        "polydispersity_index": 0.1,
+        "zeta_potential": -3.0,
+        "encapsulation_efficiency_": 83.5
+      },
+      "target": 0.635607547
+    },
+    {
+      "id": "DSG-PEG_ 1.6",
+      "components": {
+        "ALC-0315": {
+          "composition_percent": 46.3,
+          "smiles": "CCCCCCCCC(CCCCCC)C(=O)OCCCCCCN(CCCCCCOC(=O)C(CCCCCC)CCCCCCCC)CCCCO",
+          "category": "ionizable_lipids"
+        },
+        "DSPC": {
+          "composition_percent": 9.4,
+          "smiles": "CCCCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CCCCCCCCCCCCCCCCC",
+          "category": "helper_lipids"
+        },
+        "Cholesterol": {
+          "composition_percent": 44.3,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)C",
+          "category": "helper_lipids"
+        },
+        "DSG-PEG": {
+          "composition_percent": 1.6,
+          "smiles": "CCCCCCCCCCCCCCCCCC(=O)OCC(COCCOCCOC)OC(=O)CCCCCCCCCCCCCCCCC",
+          "category": "peg_lipids"
+        }
+      },
+      "properties": {
+        "size": 166.5,
+        "polydispersity_index": 0.1,
+        "zeta_potential": -1.1,
+        "encapsulation_efficiency_": 82.2
+      },
+      "target": 0.034013049
+    },
+    {
+      "id": "C8-Ceramide-PEG_ 1.6",
+      "components": {
+        "ALC-0315": {
+          "composition_percent": 46.3,
+          "smiles": "CCCCCCCCC(CCCCCC)C(=O)OCCCCCCN(CCCCCCOC(=O)C(CCCCCC)CCCCCCCC)CCCCO",
+          "category": "ionizable_lipids"
+        },
+        "DSPC": {
+          "composition_percent": 9.4,
+          "smiles": "CCCCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CCCCCCCCCCCCCCCCC",
+          "category": "helper_lipids"
+        },
+        "Cholesterol": {
+          "composition_percent": 44.3,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)C",
+          "category": "helper_lipids"
+        },
+        "C8-Ceramide-PEG": {
+          "composition_percent": 1.6,
+          "smiles": "CCCCCCCCCCCCC/C=C/[C@H]([C@H](COC(=O)CCC(=O)OCCOC)NC(=O)CCCCCCC)O",
+          "category": "ceramide_peg"
+        }
+      },
+      "properties": {
+        "size": 175.5,
+        "polydispersity_index": 0.2,
+        "zeta_potential": -4.7,
+        "encapsulation_efficiency_": 74.4
+      },
+      "target": 1.790756
+    },
+    {
+      "id": "C16-Ceramide-PEG_ 1.6",
+      "components": {
+        "ALC-0315": {
+          "composition_percent": 46.3,
+          "smiles": "CCCCCCCCC(CCCCCC)C(=O)OCCCCCCN(CCCCCCOC(=O)C(CCCCCC)CCCCCCCC)CCCCO",
+          "category": "ionizable_lipids"
+        },
+        "DSPC": {
+          "composition_percent": 9.4,
+          "smiles": "CCCCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CCCCCCCCCCCCCCCCC",
+          "category": "helper_lipids"
+        },
+        "Cholesterol": {
+          "composition_percent": 44.3,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)C",
+          "category": "helper_lipids"
+        },
+        "C16-Ceramide-PEG": {
+          "composition_percent": 1.6,
+          "smiles": "CCCCCCCCCCCCCCCC(=O)N[C@@H](COC(=O)CCC(=O)OCCOC)[C@@H](/C=C/CCCCCCCCCCCCC)O",
+          "category": "ceramide_peg"
+        }
+      },
+      "properties": {
+        "size": 162.6,
+        "polydispersity_index": 0.1,
+        "zeta_potential": 2.8,
+        "encapsulation_efficiency_": 89.6
+      },
+      "target": 0.533181002
+    },
+    {
+      "id": "DMPE-PEG_ 1.6",
+      "components": {
+        "ALC-0315": {
+          "composition_percent": 46.3,
+          "smiles": "CCCCCCCCC(CCCCCC)C(=O)OCCCCCCN(CCCCCCOC(=O)C(CCCCCC)CCCCCCCC)CCCCO",
+          "category": "ionizable_lipids"
+        },
+        "DSPC": {
+          "composition_percent": 9.4,
+          "smiles": "CCCCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CCCCCCCCCCCCCCCCC",
+          "category": "helper_lipids"
+        },
+        "Cholesterol": {
+          "composition_percent": 44.3,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)C",
+          "category": "helper_lipids"
+        },
+        "DMPE-PEG": {
+          "composition_percent": 1.6,
+          "smiles": "CCCCCCCCCCCC(=O)OCC[C@H](COP(=O)(O)OCCNCCOCCOCCO)OC(=O)CCCCCCCCCCCC",
+          "category": "phospholipid_peg"
+        }
+      },
+      "properties": {
+        "size": 173.1,
+        "polydispersity_index": 0.1,
+        "zeta_potential": -0.7,
+        "encapsulation_efficiency_": 58.6
+      },
+      "target": 0.510029922
+    },
+    {
+      "id": "DSPE-PEG_ 1.6",
+      "components": {
+        "ALC-0315": {
+          "composition_percent": 46.3,
+          "smiles": "CCCCCCCCC(CCCCCC)C(=O)OCCCCCCN(CCCCCCOC(=O)C(CCCCCC)CCCCCCCC)CCCCO",
+          "category": "ionizable_lipids"
+        },
+        "DSPC": {
+          "composition_percent": 9.4,
+          "smiles": "CCCCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CCCCCCCCCCCCCCCCC",
+          "category": "helper_lipids"
+        },
+        "Cholesterol": {
+          "composition_percent": 44.3,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)C",
+          "category": "helper_lipids"
+        },
+        "DSPE-PEG": {
+          "composition_percent": 1.6,
+          "smiles": "CCCCCCCCCCCCCCCCCC(=O)OCC[C@H](COP(=O)(O)OCCNCCOCCOCCO)OC(=O)CCCCCCCCCCCCCCCCCC",
+          "category": "phospholipid_peg"
+        }
+      },
+      "properties": {
+        "size": 179.7,
+        "polydispersity_index": 0.2,
+        "zeta_potential": -2.5,
+        "encapsulation_efficiency_": 79.5
+      },
+      "target": 0.007025194
+    },
+    {
+      "id": "ALC-0159_ 3",
+      "components": {
+        "ALC-0315": {
+          "composition_percent": 46.3,
+          "smiles": "CCCCCCCCC(CCCCCC)C(=O)OCCCCCCN(CCCCCCOC(=O)C(CCCCCC)CCCCCCCC)CCCCO",
+          "category": "ionizable_lipids"
+        },
+        "ALC-0159": {
+          "composition_percent": 3.0,
+          "smiles": "CCCCCCCCCCCCCCN(CCCCCCCCCCCCCC)C(=O)COCCOC.N",
+          "category": "ionizable_lipids"
+        },
+        "DSPC": {
+          "composition_percent": 9.4,
+          "smiles": "CCCCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CCCCCCCCCCCCCCCCC",
+          "category": "helper_lipids"
+        },
+        "Cholesterol": {
+          "composition_percent": 44.3,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)C",
+          "category": "helper_lipids"
+        }
+      },
+      "properties": {
+        "size": 174.5,
+        "polydispersity_index": 0.2,
+        "zeta_potential": -2.2,
+        "encapsulation_efficiency_": 62.7
+      },
+      "target": 0.513094906
+    },
+    {
+      "id": "DMG-C-PEG_ 3",
+      "components": {
+        "ALC-0315": {
+          "composition_percent": 46.3,
+          "smiles": "CCCCCCCCC(CCCCCC)C(=O)OCCCCCCN(CCCCCCOC(=O)C(CCCCCC)CCCCCCCC)CCCCO",
+          "category": "ionizable_lipids"
+        },
+        "DSPC": {
+          "composition_percent": 9.4,
+          "smiles": "CCCCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CCCCCCCCCCCCCCCCC",
+          "category": "helper_lipids"
+        },
+        "Cholesterol": {
+          "composition_percent": 44.3,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)C",
+          "category": "helper_lipids"
+        },
+        "DMG-C-PEG": {
+          "composition_percent": 3.0,
+          "smiles": "CCCCCCCCCCCC(=O)OCC(OC(=O)CCCCCCCCCCCC)COCCOCCO",
+          "category": "peg_lipids"
+        }
+      },
+      "properties": {
+        "size": 161.6,
+        "polydispersity_index": 0.1,
+        "zeta_potential": -5.7,
+        "encapsulation_efficiency_": 59.6
+      },
+      "target": 0.368468299
+    },
+    {
+      "id": "DMG-PEG_ 3",
+      "components": {
+        "ALC-0315": {
+          "composition_percent": 46.3,
+          "smiles": "CCCCCCCCC(CCCCCC)C(=O)OCCCCCCN(CCCCCCOC(=O)C(CCCCCC)CCCCCCCC)CCCCO",
+          "category": "ionizable_lipids"
+        },
+        "DSPC": {
+          "composition_percent": 9.4,
+          "smiles": "CCCCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CCCCCCCCCCCCCCCCC",
+          "category": "helper_lipids"
+        },
+        "Cholesterol": {
+          "composition_percent": 44.3,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)C",
+          "category": "helper_lipids"
+        },
+        "DMG-PEG": {
+          "composition_percent": 3.0,
+          "smiles": "CCCCCCCCCCCC(=O)OCC(OC(=O)CCCCCCCCCCCC)COCCOCCO",
+          "category": "peg_lipids"
+        }
+      },
+      "properties": {
+        "size": 169.9,
+        "polydispersity_index": 0.2,
+        "zeta_potential": -3.0,
+        "encapsulation_efficiency_": 62.1
+      },
+      "target": 0.254017462
+    },
+    {
+      "id": "DSG-PEG_ 3",
+      "components": {
+        "ALC-0315": {
+          "composition_percent": 46.3,
+          "smiles": "CCCCCCCCC(CCCCCC)C(=O)OCCCCCCN(CCCCCCOC(=O)C(CCCCCC)CCCCCCCC)CCCCO",
+          "category": "ionizable_lipids"
+        },
+        "DSPC": {
+          "composition_percent": 9.4,
+          "smiles": "CCCCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CCCCCCCCCCCCCCCCC",
+          "category": "helper_lipids"
+        },
+        "Cholesterol": {
+          "composition_percent": 44.3,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)C",
+          "category": "helper_lipids"
+        },
+        "DSG-PEG": {
+          "composition_percent": 3.0,
+          "smiles": "CCCCCCCCCCCCCCCCCC(=O)OCC(COCCOCCOC)OC(=O)CCCCCCCCCCCCCCCCC",
+          "category": "peg_lipids"
+        }
+      },
+      "properties": {
+        "size": 153.6,
+        "polydispersity_index": 0.1,
+        "zeta_potential": -2.8,
+        "encapsulation_efficiency_": 75.7
+      },
+      "target": 0.023759611
+    },
+    {
+      "id": "C8-Ceramide-PEG_ 3",
+      "components": {
+        "ALC-0315": {
+          "composition_percent": 46.3,
+          "smiles": "CCCCCCCCC(CCCCCC)C(=O)OCCCCCCN(CCCCCCOC(=O)C(CCCCCC)CCCCCCCC)CCCCO",
+          "category": "ionizable_lipids"
+        },
+        "DSPC": {
+          "composition_percent": 9.4,
+          "smiles": "CCCCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CCCCCCCCCCCCCCCCC",
+          "category": "helper_lipids"
+        },
+        "Cholesterol": {
+          "composition_percent": 44.3,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)C",
+          "category": "helper_lipids"
+        },
+        "C8-Ceramide-PEG": {
+          "composition_percent": 3.0,
+          "smiles": "CCCCCCCCCCCCC/C=C/[C@H]([C@H](COC(=O)CCC(=O)OCCOC)NC(=O)CCCCCCC)O",
+          "category": "ceramide_peg"
+        }
+      },
+      "properties": {
+        "size": 181.7,
+        "polydispersity_index": 0.2,
+        "zeta_potential": -5.1,
+        "encapsulation_efficiency_": 65.2
+      },
+      "target": 1.542889127
+    },
+    {
+      "id": "C16-Ceramide-PEG_ 3",
+      "components": {
+        "ALC-0315": {
+          "composition_percent": 46.3,
+          "smiles": "CCCCCCCCC(CCCCCC)C(=O)OCCCCCCN(CCCCCCOC(=O)C(CCCCCC)CCCCCCCC)CCCCO",
+          "category": "ionizable_lipids"
+        },
+        "DSPC": {
+          "composition_percent": 9.4,
+          "smiles": "CCCCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CCCCCCCCCCCCCCCCC",
+          "category": "helper_lipids"
+        },
+        "Cholesterol": {
+          "composition_percent": 44.3,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)C",
+          "category": "helper_lipids"
+        },
+        "C16-Ceramide-PEG": {
+          "composition_percent": 3.0,
+          "smiles": "CCCCCCCCCCCCCCCC(=O)N[C@@H](COC(=O)CCC(=O)OCCOC)[C@@H](/C=C/CCCCCCCCCCCCC)O",
+          "category": "ceramide_peg"
+        }
+      },
+      "properties": {
+        "size": 172.0,
+        "polydispersity_index": 0.1,
+        "zeta_potential": -3.5,
+        "encapsulation_efficiency_": 66.2
+      },
+      "target": 0.492929239
+    },
+    {
+      "id": "DMPE-PEG_ 3",
+      "components": {
+        "ALC-0315": {
+          "composition_percent": 46.3,
+          "smiles": "CCCCCCCCC(CCCCCC)C(=O)OCCCCCCN(CCCCCCOC(=O)C(CCCCCC)CCCCCCCC)CCCCO",
+          "category": "ionizable_lipids"
+        },
+        "DSPC": {
+          "composition_percent": 9.4,
+          "smiles": "CCCCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CCCCCCCCCCCCCCCCC",
+          "category": "helper_lipids"
+        },
+        "Cholesterol": {
+          "composition_percent": 44.3,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)C",
+          "category": "helper_lipids"
+        },
+        "DMPE-PEG": {
+          "composition_percent": 3.0,
+          "smiles": "CCCCCCCCCCCC(=O)OCC[C@H](COP(=O)(O)OCCNCCOCCOCCO)OC(=O)CCCCCCCCCCCC",
+          "category": "phospholipid_peg"
+        }
+      },
+      "properties": {
+        "size": 177.1,
+        "polydispersity_index": 0.2,
+        "zeta_potential": -1.5,
+        "encapsulation_efficiency_": 36.7
+      },
+      "target": 0.15403788
+    },
+    {
+      "id": "DSPE-PEG_ 3",
+      "components": {
+        "ALC-0315": {
+          "composition_percent": 46.3,
+          "smiles": "CCCCCCCCC(CCCCCC)C(=O)OCCCCCCN(CCCCCCOC(=O)C(CCCCCC)CCCCCCCC)CCCCO",
+          "category": "ionizable_lipids"
+        },
+        "DSPC": {
+          "composition_percent": 9.4,
+          "smiles": "CCCCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CCCCCCCCCCCCCCCCC",
+          "category": "helper_lipids"
+        },
+        "Cholesterol": {
+          "composition_percent": 44.3,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)C",
+          "category": "helper_lipids"
+        },
+        "DSPE-PEG": {
+          "composition_percent": 3.0,
+          "smiles": "CCCCCCCCCCCCCCCCCC(=O)OCC[C@H](COP(=O)(O)OCCNCCOCCOCCO)OC(=O)CCCCCCCCCCCCCCCCCC",
+          "category": "phospholipid_peg"
+        }
+      },
+      "properties": {
+        "size": 190.5,
+        "polydispersity_index": 0.3,
+        "zeta_potential": -3.2,
+        "encapsulation_efficiency_": 62.4
+      },
+      "target": 0.002886405
+    },
+    {
+      "id": "ALC-0159_ 5",
+      "components": {
+        "ALC-0315": {
+          "composition_percent": 46.3,
+          "smiles": "CCCCCCCCC(CCCCCC)C(=O)OCCCCCCN(CCCCCCOC(=O)C(CCCCCC)CCCCCCCC)CCCCO",
+          "category": "ionizable_lipids"
+        },
+        "ALC-0159": {
+          "composition_percent": 5.0,
+          "smiles": "CCCCCCCCCCCCCCN(CCCCCCCCCCCCCC)C(=O)COCCOC.N",
+          "category": "ionizable_lipids"
+        },
+        "DSPC": {
+          "composition_percent": 9.4,
+          "smiles": "CCCCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CCCCCCCCCCCCCCCCC",
+          "category": "helper_lipids"
+        },
+        "Cholesterol": {
+          "composition_percent": 44.3,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)C",
+          "category": "helper_lipids"
+        }
+      },
+      "properties": {
+        "size": 171.5,
+        "polydispersity_index": 0.2,
+        "zeta_potential": -1.0,
+        "encapsulation_efficiency_": 45.9
+      },
+      "target": 0.67010501
+    },
+    {
+      "id": "DMG-C-PEG_ 5",
+      "components": {
+        "ALC-0315": {
+          "composition_percent": 46.3,
+          "smiles": "CCCCCCCCC(CCCCCC)C(=O)OCCCCCCN(CCCCCCOC(=O)C(CCCCCC)CCCCCCCC)CCCCO",
+          "category": "ionizable_lipids"
+        },
+        "DSPC": {
+          "composition_percent": 9.4,
+          "smiles": "CCCCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CCCCCCCCCCCCCCCCC",
+          "category": "helper_lipids"
+        },
+        "Cholesterol": {
+          "composition_percent": 44.3,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)C",
+          "category": "helper_lipids"
+        },
+        "DMG-C-PEG": {
+          "composition_percent": 5.0,
+          "smiles": "CCCCCCCCCCCC(=O)OCC(OC(=O)CCCCCCCCCCCC)COCCOCCO",
+          "category": "peg_lipids"
+        }
+      },
+      "properties": {
+        "size": 163.8,
+        "polydispersity_index": 0.2,
+        "zeta_potential": -5.6,
+        "encapsulation_efficiency_": 39.1
+      },
+      "target": 0.240703248
+    },
+    {
+      "id": "DMG-PEG_ 5",
+      "components": {
+        "ALC-0315": {
+          "composition_percent": 46.3,
+          "smiles": "CCCCCCCCC(CCCCCC)C(=O)OCCCCCCN(CCCCCCOC(=O)C(CCCCCC)CCCCCCCC)CCCCO",
+          "category": "ionizable_lipids"
+        },
+        "DSPC": {
+          "composition_percent": 9.4,
+          "smiles": "CCCCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CCCCCCCCCCCCCCCCC",
+          "category": "helper_lipids"
+        },
+        "Cholesterol": {
+          "composition_percent": 44.3,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)C",
+          "category": "helper_lipids"
+        },
+        "DMG-PEG": {
+          "composition_percent": 5.0,
+          "smiles": "CCCCCCCCCCCC(=O)OCC(OC(=O)CCCCCCCCCCCC)COCCOCCO",
+          "category": "peg_lipids"
+        }
+      },
+      "properties": {
+        "size": 176.0,
+        "polydispersity_index": 0.2,
+        "zeta_potential": -6.9,
+        "encapsulation_efficiency_": 41.6
+      },
+      "target": 0.120768866
+    },
+    {
+      "id": "DSG-PEG_ 5",
+      "components": {
+        "ALC-0315": {
+          "composition_percent": 46.3,
+          "smiles": "CCCCCCCCC(CCCCCC)C(=O)OCCCCCCN(CCCCCCOC(=O)C(CCCCCC)CCCCCCCC)CCCCO",
+          "category": "ionizable_lipids"
+        },
+        "DSPC": {
+          "composition_percent": 9.4,
+          "smiles": "CCCCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CCCCCCCCCCCCCCCCC",
+          "category": "helper_lipids"
+        },
+        "Cholesterol": {
+          "composition_percent": 44.3,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)C",
+          "category": "helper_lipids"
+        },
+        "DSG-PEG": {
+          "composition_percent": 5.0,
+          "smiles": "CCCCCCCCCCCCCCCCCC(=O)OCC(COCCOCCOC)OC(=O)CCCCCCCCCCCCCCCCC",
+          "category": "peg_lipids"
+        }
+      },
+      "properties": {
+        "size": 155.0,
+        "polydispersity_index": 0.1,
+        "zeta_potential": 0.9,
+        "encapsulation_efficiency_": 52.0
+      },
+      "target": 0.008123521
+    },
+    {
+      "id": "C8-Ceramide-PEG_ 5",
+      "components": {
+        "ALC-0315": {
+          "composition_percent": 46.3,
+          "smiles": "CCCCCCCCC(CCCCCC)C(=O)OCCCCCCN(CCCCCCOC(=O)C(CCCCCC)CCCCCCCC)CCCCO",
+          "category": "ionizable_lipids"
+        },
+        "DSPC": {
+          "composition_percent": 9.4,
+          "smiles": "CCCCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CCCCCCCCCCCCCCCCC",
+          "category": "helper_lipids"
+        },
+        "Cholesterol": {
+          "composition_percent": 44.3,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)C",
+          "category": "helper_lipids"
+        },
+        "C8-Ceramide-PEG": {
+          "composition_percent": 5.0,
+          "smiles": "CCCCCCCCCCCCC/C=C/[C@H]([C@H](COC(=O)CCC(=O)OCCOC)NC(=O)CCCCCCC)O",
+          "category": "ceramide_peg"
+        }
+      },
+      "properties": {
+        "size": 175.0,
+        "polydispersity_index": 0.1,
+        "zeta_potential": 0.2,
+        "encapsulation_efficiency_": 62.4
+      },
+      "target": 1.470683892
+    },
+    {
+      "id": "C16-Ceramide-PEG_ 5",
+      "components": {
+        "ALC-0315": {
+          "composition_percent": 46.3,
+          "smiles": "CCCCCCCCC(CCCCCC)C(=O)OCCCCCCN(CCCCCCOC(=O)C(CCCCCC)CCCCCCCC)CCCCO",
+          "category": "ionizable_lipids"
+        },
+        "DSPC": {
+          "composition_percent": 9.4,
+          "smiles": "CCCCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CCCCCCCCCCCCCCCCC",
+          "category": "helper_lipids"
+        },
+        "Cholesterol": {
+          "composition_percent": 44.3,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)C",
+          "category": "helper_lipids"
+        },
+        "C16-Ceramide-PEG": {
+          "composition_percent": 5.0,
+          "smiles": "CCCCCCCCCCCCCCCC(=O)N[C@@H](COC(=O)CCC(=O)OCCOC)[C@@H](/C=C/CCCCCCCCCCCCC)O",
+          "category": "ceramide_peg"
+        }
+      },
+      "properties": {
+        "size": 154.2,
+        "polydispersity_index": 0.2,
+        "zeta_potential": 0.9,
+        "encapsulation_efficiency_": 56.2
+      },
+      "target": 0.251382379
+    },
+    {
+      "id": "DMPE-PEG_ 5",
+      "components": {
+        "ALC-0315": {
+          "composition_percent": 46.3,
+          "smiles": "CCCCCCCCC(CCCCCC)C(=O)OCCCCCCN(CCCCCCOC(=O)C(CCCCCC)CCCCCCCC)CCCCO",
+          "category": "ionizable_lipids"
+        },
+        "DSPC": {
+          "composition_percent": 9.4,
+          "smiles": "CCCCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CCCCCCCCCCCCCCCCC",
+          "category": "helper_lipids"
+        },
+        "Cholesterol": {
+          "composition_percent": 44.3,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)C",
+          "category": "helper_lipids"
+        },
+        "DMPE-PEG": {
+          "composition_percent": 5.0,
+          "smiles": "CCCCCCCCCCCC(=O)OCC[C@H](COP(=O)(O)OCCNCCOCCOCCO)OC(=O)CCCCCCCCCCCC",
+          "category": "phospholipid_peg"
+        }
+      },
+      "properties": {
+        "size": 164.5,
+        "polydispersity_index": 0.2,
+        "zeta_potential": -0.4,
+        "encapsulation_efficiency_": 27.6
+      },
+      "target": 0.088362333
+    },
+    {
+      "id": "DSPE-PEG_ 5",
+      "components": {
+        "ALC-0315": {
+          "composition_percent": 46.3,
+          "smiles": "CCCCCCCCC(CCCCCC)C(=O)OCCCCCCN(CCCCCCOC(=O)C(CCCCCC)CCCCCCCC)CCCCO",
+          "category": "ionizable_lipids"
+        },
+        "DSPC": {
+          "composition_percent": 9.4,
+          "smiles": "CCCCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CCCCCCCCCCCCCCCCC",
+          "category": "helper_lipids"
+        },
+        "Cholesterol": {
+          "composition_percent": 44.3,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)C",
+          "category": "helper_lipids"
+        },
+        "DSPE-PEG": {
+          "composition_percent": 5.0,
+          "smiles": "CCCCCCCCCCCCCCCCCC(=O)OCC[C@H](COP(=O)(O)OCCNCCOCCOCCO)OC(=O)CCCCCCCCCCCCCCCCCC",
+          "category": "phospholipid_peg"
+        }
+      },
+      "properties": {
+        "size": 277.7,
+        "polydispersity_index": 0.4,
+        "zeta_potential": -3.6,
+        "encapsulation_efficiency_": 36.0
+      },
+      "target": 0.003458571
+    },
+    {
+      "id": "ALC-0159_ 10",
+      "components": {
+        "ALC-0315": {
+          "composition_percent": 46.3,
+          "smiles": "CCCCCCCCC(CCCCCC)C(=O)OCCCCCCN(CCCCCCOC(=O)C(CCCCCC)CCCCCCCC)CCCCO",
+          "category": "ionizable_lipids"
+        },
+        "ALC-0159": {
+          "composition_percent": 10.0,
+          "smiles": "CCCCCCCCCCCCCCN(CCCCCCCCCCCCCC)C(=O)COCCOC.N",
+          "category": "ionizable_lipids"
+        },
+        "DSPC": {
+          "composition_percent": 9.4,
+          "smiles": "CCCCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CCCCCCCCCCCCCCCCC",
+          "category": "helper_lipids"
+        },
+        "Cholesterol": {
+          "composition_percent": 44.3,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)C",
+          "category": "helper_lipids"
+        }
+      },
+      "properties": {
+        "size": 166.8,
+        "polydispersity_index": 0.1,
+        "zeta_potential": -5.0,
+        "encapsulation_efficiency_": 29.9
+      },
+      "target": 0.125777624
+    },
+    {
+      "id": "DMG-C-PEG_ 10",
+      "components": {
+        "ALC-0315": {
+          "composition_percent": 46.3,
+          "smiles": "CCCCCCCCC(CCCCCC)C(=O)OCCCCCCN(CCCCCCOC(=O)C(CCCCCC)CCCCCCCC)CCCCO",
+          "category": "ionizable_lipids"
+        },
+        "DSPC": {
+          "composition_percent": 9.4,
+          "smiles": "CCCCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CCCCCCCCCCCCCCCCC",
+          "category": "helper_lipids"
+        },
+        "Cholesterol": {
+          "composition_percent": 44.3,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)C",
+          "category": "helper_lipids"
+        },
+        "DMG-C-PEG": {
+          "composition_percent": 10.0,
+          "smiles": "CCCCCCCCCCCC(=O)OCC(OC(=O)CCCCCCCCCCCC)COCCOCCO",
+          "category": "peg_lipids"
+        }
+      },
+      "properties": {
+        "size": 156.3,
+        "polydispersity_index": 0.1,
+        "zeta_potential": -1.1,
+        "encapsulation_efficiency_": 26.3
+      },
+      "target": 0.017472462
+    },
+    {
+      "id": "DMG-PEG_ 10",
+      "components": {
+        "ALC-0315": {
+          "composition_percent": 46.3,
+          "smiles": "CCCCCCCCC(CCCCCC)C(=O)OCCCCCCN(CCCCCCOC(=O)C(CCCCCC)CCCCCCCC)CCCCO",
+          "category": "ionizable_lipids"
+        },
+        "DSPC": {
+          "composition_percent": 9.4,
+          "smiles": "CCCCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CCCCCCCCCCCCCCCCC",
+          "category": "helper_lipids"
+        },
+        "Cholesterol": {
+          "composition_percent": 44.3,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)C",
+          "category": "helper_lipids"
+        },
+        "DMG-PEG": {
+          "composition_percent": 10.0,
+          "smiles": "CCCCCCCCCCCC(=O)OCC(OC(=O)CCCCCCCCCCCC)COCCOCCO",
+          "category": "peg_lipids"
+        }
+      },
+      "properties": {
+        "size": 159.9,
+        "polydispersity_index": 0.2,
+        "zeta_potential": -4.1,
+        "encapsulation_efficiency_": 24.1
+      },
+      "target": 0.018128378
+    },
+    {
+      "id": "DSG-PEG_ 10",
+      "components": {
+        "ALC-0315": {
+          "composition_percent": 46.3,
+          "smiles": "CCCCCCCCC(CCCCCC)C(=O)OCCCCCCN(CCCCCCOC(=O)C(CCCCCC)CCCCCCCC)CCCCO",
+          "category": "ionizable_lipids"
+        },
+        "DSPC": {
+          "composition_percent": 9.4,
+          "smiles": "CCCCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CCCCCCCCCCCCCCCCC",
+          "category": "helper_lipids"
+        },
+        "Cholesterol": {
+          "composition_percent": 44.3,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)C",
+          "category": "helper_lipids"
+        },
+        "DSG-PEG": {
+          "composition_percent": 10.0,
+          "smiles": "CCCCCCCCCCCCCCCCCC(=O)OCC(COCCOCCOC)OC(=O)CCCCCCCCCCCCCCCCC",
+          "category": "peg_lipids"
+        }
+      },
+      "properties": {
+        "size": 149.6,
+        "polydispersity_index": 0.1,
+        "zeta_potential": -2.1,
+        "encapsulation_efficiency_": 31.8
+      },
+      "target": 0.009698897
+    },
+    {
+      "id": "C8-Ceramide-PEG_ 10",
+      "components": {
+        "ALC-0315": {
+          "composition_percent": 46.3,
+          "smiles": "CCCCCCCCC(CCCCCC)C(=O)OCCCCCCN(CCCCCCOC(=O)C(CCCCCC)CCCCCCCC)CCCCO",
+          "category": "ionizable_lipids"
+        },
+        "DSPC": {
+          "composition_percent": 9.4,
+          "smiles": "CCCCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CCCCCCCCCCCCCCCCC",
+          "category": "helper_lipids"
+        },
+        "Cholesterol": {
+          "composition_percent": 44.3,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)C",
+          "category": "helper_lipids"
+        },
+        "C8-Ceramide-PEG": {
+          "composition_percent": 10.0,
+          "smiles": "CCCCCCCCCCCCC/C=C/[C@H]([C@H](COC(=O)CCC(=O)OCCOC)NC(=O)CCCCCCC)O",
+          "category": "ceramide_peg"
+        }
+      },
+      "properties": {
+        "size": 172.6,
+        "polydispersity_index": 0.1,
+        "zeta_potential": -3.2,
+        "encapsulation_efficiency_": 49.8
+      },
+      "target": 1.022512531
+    },
+    {
+      "id": "C16-Ceramide-PEG_ 10",
+      "components": {
+        "ALC-0315": {
+          "composition_percent": 46.3,
+          "smiles": "CCCCCCCCC(CCCCCC)C(=O)OCCCCCCN(CCCCCCOC(=O)C(CCCCCC)CCCCCCCC)CCCCO",
+          "category": "ionizable_lipids"
+        },
+        "DSPC": {
+          "composition_percent": 9.4,
+          "smiles": "CCCCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CCCCCCCCCCCCCCCCC",
+          "category": "helper_lipids"
+        },
+        "Cholesterol": {
+          "composition_percent": 44.3,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)C",
+          "category": "helper_lipids"
+        },
+        "C16-Ceramide-PEG": {
+          "composition_percent": 10.0,
+          "smiles": "CCCCCCCCCCCCCCCC(=O)N[C@@H](COC(=O)CCC(=O)OCCOC)[C@@H](/C=C/CCCCCCCCCCCCC)O",
+          "category": "ceramide_peg"
+        }
+      },
+      "properties": {
+        "size": 152.8,
+        "polydispersity_index": 0.1,
+        "zeta_potential": -1.5,
+        "encapsulation_efficiency_": 31.1
+      },
+      "target": 0.090475763
+    },
+    {
+      "id": "DMPE-PEG_ 10",
+      "components": {
+        "ALC-0315": {
+          "composition_percent": 46.3,
+          "smiles": "CCCCCCCCC(CCCCCC)C(=O)OCCCCCCN(CCCCCCOC(=O)C(CCCCCC)CCCCCCCC)CCCCO",
+          "category": "ionizable_lipids"
+        },
+        "DSPC": {
+          "composition_percent": 9.4,
+          "smiles": "CCCCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CCCCCCCCCCCCCCCCC",
+          "category": "helper_lipids"
+        },
+        "Cholesterol": {
+          "composition_percent": 44.3,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)C",
+          "category": "helper_lipids"
+        },
+        "DMPE-PEG": {
+          "composition_percent": 10.0,
+          "smiles": "CCCCCCCCCCCC(=O)OCC[C@H](COP(=O)(O)OCCNCCOCCOCCO)OC(=O)CCCCCCCCCCCC",
+          "category": "phospholipid_peg"
+        }
+      },
+      "properties": {
+        "size": 158.3,
+        "polydispersity_index": 0.2,
+        "zeta_potential": -2.6,
+        "encapsulation_efficiency_": 21.2
+      },
+      "target": 0.030973325
+    },
+    {
+      "id": "DSPE-PEG_ 10",
+      "components": {
+        "ALC-0315": {
+          "composition_percent": 46.3,
+          "smiles": "CCCCCCCCC(CCCCCC)C(=O)OCCCCCCN(CCCCCCOC(=O)C(CCCCCC)CCCCCCCC)CCCCO",
+          "category": "ionizable_lipids"
+        },
+        "DSPC": {
+          "composition_percent": 9.4,
+          "smiles": "CCCCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CCCCCCCCCCCCCCCCC",
+          "category": "helper_lipids"
+        },
+        "Cholesterol": {
+          "composition_percent": 44.3,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)C",
+          "category": "helper_lipids"
+        },
+        "DSPE-PEG": {
+          "composition_percent": 10.0,
+          "smiles": "CCCCCCCCCCCCCCCCCC(=O)OCC[C@H](COP(=O)(O)OCCNCCOCCOCCO)OC(=O)CCCCCCCCCCCCCCCCCC",
+          "category": "phospholipid_peg"
+        }
+      },
+      "properties": {
+        "size": 446.3,
+        "polydispersity_index": 0.4,
+        "zeta_potential": -8.2,
+        "encapsulation_efficiency_": 25.5
+      },
+      "target": 0.003146772
+    },
+    {
+      "id": "ALC-0159_ 1.6",
+      "components": {
+        "ALC-0315": {
+          "composition_percent": 46.3,
+          "smiles": "CCCCCCCCC(CCCCCC)C(=O)OCCCCCCN(CCCCCCOC(=O)C(CCCCCC)CCCCCCCC)CCCCO",
+          "category": "ionizable_lipids"
+        },
+        "ALC-0159": {
+          "composition_percent": 1.6,
+          "smiles": "CCCCCCCCCCCCCCN(CCCCCCCCCCCCCC)C(=O)COCCOC.N",
+          "category": "ionizable_lipids"
+        },
+        "DSPC": {
+          "composition_percent": 9.4,
+          "smiles": "CCCCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CCCCCCCCCCCCCCCCC",
+          "category": "helper_lipids"
+        },
+        "Cholesterol": {
+          "composition_percent": 44.3,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)C",
+          "category": "helper_lipids"
+        }
+      },
+      "properties": {
+        "size": 68.1,
+        "polydispersity_index": 0.1,
+        "zeta_potential": 0.5,
+        "encapsulation_efficiency_": 77.9
+      },
+      "target": 1.0
+    },
+    {
+      "id": "DMG-C-PEG_ 1.6",
+      "components": {
+        "ALC-0315": {
+          "composition_percent": 46.3,
+          "smiles": "CCCCCCCCC(CCCCCC)C(=O)OCCCCCCN(CCCCCCOC(=O)C(CCCCCC)CCCCCCCC)CCCCO",
+          "category": "ionizable_lipids"
+        },
+        "DSPC": {
+          "composition_percent": 9.4,
+          "smiles": "CCCCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CCCCCCCCCCCCCCCCC",
+          "category": "helper_lipids"
+        },
+        "Cholesterol": {
+          "composition_percent": 44.3,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)C",
+          "category": "helper_lipids"
+        },
+        "DMG-C-PEG": {
+          "composition_percent": 1.6,
+          "smiles": "CCCCCCCCCCCC(=O)OCC(OC(=O)CCCCCCCCCCCC)COCCOCCO",
+          "category": "peg_lipids"
+        }
+      },
+      "properties": {
+        "size": 67.3,
+        "polydispersity_index": 0.1,
+        "zeta_potential": -1.3,
+        "encapsulation_efficiency_": 78.6
+      },
+      "target": 0.834785763
+    },
+    {
+      "id": "DMG-PEG_ 1.6",
+      "components": {
+        "ALC-0315": {
+          "composition_percent": 46.3,
+          "smiles": "CCCCCCCCC(CCCCCC)C(=O)OCCCCCCN(CCCCCCOC(=O)C(CCCCCC)CCCCCCCC)CCCCO",
+          "category": "ionizable_lipids"
+        },
+        "DSPC": {
+          "composition_percent": 9.4,
+          "smiles": "CCCCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CCCCCCCCCCCCCCCCC",
+          "category": "helper_lipids"
+        },
+        "Cholesterol": {
+          "composition_percent": 44.3,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)C",
+          "category": "helper_lipids"
+        },
+        "DMG-PEG": {
+          "composition_percent": 1.6,
+          "smiles": "CCCCCCCCCCCC(=O)OCC(OC(=O)CCCCCCCCCCCC)COCCOCCO",
+          "category": "peg_lipids"
+        }
+      },
+      "properties": {
+        "size": 69.9,
+        "polydispersity_index": 0.1,
+        "zeta_potential": -3.8,
+        "encapsulation_efficiency_": 81.3
+      },
+      "target": 0.980766086
+    },
+    {
+      "id": "DSG-PEG_ 1.6",
+      "components": {
+        "ALC-0315": {
+          "composition_percent": 46.3,
+          "smiles": "CCCCCCCCC(CCCCCC)C(=O)OCCCCCCN(CCCCCCOC(=O)C(CCCCCC)CCCCCCCC)CCCCO",
+          "category": "ionizable_lipids"
+        },
+        "DSPC": {
+          "composition_percent": 9.4,
+          "smiles": "CCCCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CCCCCCCCCCCCCCCCC",
+          "category": "helper_lipids"
+        },
+        "Cholesterol": {
+          "composition_percent": 44.3,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)C",
+          "category": "helper_lipids"
+        },
+        "DSG-PEG": {
+          "composition_percent": 1.6,
+          "smiles": "CCCCCCCCCCCCCCCCCC(=O)OCC(COCCOCCOC)OC(=O)CCCCCCCCCCCCCCCCC",
+          "category": "peg_lipids"
+        }
+      },
+      "properties": {
+        "size": 67.6,
+        "polydispersity_index": 0.0,
+        "zeta_potential": -5.0,
+        "encapsulation_efficiency_": 88.6
+      },
+      "target": 0.067817556
+    },
+    {
+      "id": "C8-Ceramide-PEG_ 1.6",
+      "components": {
+        "ALC-0315": {
+          "composition_percent": 46.3,
+          "smiles": "CCCCCCCCC(CCCCCC)C(=O)OCCCCCCN(CCCCCCOC(=O)C(CCCCCC)CCCCCCCC)CCCCO",
+          "category": "ionizable_lipids"
+        },
+        "DSPC": {
+          "composition_percent": 9.4,
+          "smiles": "CCCCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CCCCCCCCCCCCCCCCC",
+          "category": "helper_lipids"
+        },
+        "Cholesterol": {
+          "composition_percent": 44.3,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)C",
+          "category": "helper_lipids"
+        },
+        "C8-Ceramide-PEG": {
+          "composition_percent": 1.6,
+          "smiles": "CCCCCCCCCCCCC/C=C/[C@H]([C@H](COC(=O)CCC(=O)OCCOC)NC(=O)CCCCCCC)O",
+          "category": "ceramide_peg"
+        }
+      },
+      "properties": {
+        "size": 60.2,
+        "polydispersity_index": 0.2,
+        "zeta_potential": -0.3,
+        "encapsulation_efficiency_": 86.0
+      },
+      "target": 0.480120136
+    },
+    {
+      "id": "C16-Ceramide-PEG_ 1.6",
+      "components": {
+        "ALC-0315": {
+          "composition_percent": 46.3,
+          "smiles": "CCCCCCCCC(CCCCCC)C(=O)OCCCCCCN(CCCCCCOC(=O)C(CCCCCC)CCCCCCCC)CCCCO",
+          "category": "ionizable_lipids"
+        },
+        "DSPC": {
+          "composition_percent": 9.4,
+          "smiles": "CCCCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CCCCCCCCCCCCCCCCC",
+          "category": "helper_lipids"
+        },
+        "Cholesterol": {
+          "composition_percent": 44.3,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)C",
+          "category": "helper_lipids"
+        },
+        "C16-Ceramide-PEG": {
+          "composition_percent": 1.6,
+          "smiles": "CCCCCCCCCCCCCCCC(=O)N[C@@H](COC(=O)CCC(=O)OCCOC)[C@@H](/C=C/CCCCCCCCCCCCC)O",
+          "category": "ceramide_peg"
+        }
+      },
+      "properties": {
+        "size": 70.8,
+        "polydispersity_index": 0.1,
+        "zeta_potential": -1.3,
+        "encapsulation_efficiency_": 84.7
+      },
+      "target": 1.111990752
+    },
+    {
+      "id": "DMPE-PEG_ 1.6",
+      "components": {
+        "ALC-0315": {
+          "composition_percent": 46.3,
+          "smiles": "CCCCCCCCC(CCCCCC)C(=O)OCCCCCCN(CCCCCCOC(=O)C(CCCCCC)CCCCCCCC)CCCCO",
+          "category": "ionizable_lipids"
+        },
+        "DSPC": {
+          "composition_percent": 9.4,
+          "smiles": "CCCCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CCCCCCCCCCCCCCCCC",
+          "category": "helper_lipids"
+        },
+        "Cholesterol": {
+          "composition_percent": 44.3,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)C",
+          "category": "helper_lipids"
+        },
+        "DMPE-PEG": {
+          "composition_percent": 1.6,
+          "smiles": "CCCCCCCCCCCC(=O)OCC[C@H](COP(=O)(O)OCCNCCOCCOCCO)OC(=O)CCCCCCCCCCCC",
+          "category": "phospholipid_peg"
+        }
+      },
+      "properties": {
+        "size": 72.1,
+        "polydispersity_index": 0.1,
+        "zeta_potential": 0.0,
+        "encapsulation_efficiency_": 56.7
+      },
+      "target": 0.950384815
+    },
+    {
+      "id": "DSPE-PEG_ 1.6",
+      "components": {
+        "ALC-0315": {
+          "composition_percent": 46.3,
+          "smiles": "CCCCCCCCC(CCCCCC)C(=O)OCCCCCCN(CCCCCCOC(=O)C(CCCCCC)CCCCCCCC)CCCCO",
+          "category": "ionizable_lipids"
+        },
+        "DSPC": {
+          "composition_percent": 9.4,
+          "smiles": "CCCCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CCCCCCCCCCCCCCCCC",
+          "category": "helper_lipids"
+        },
+        "Cholesterol": {
+          "composition_percent": 44.3,
+          "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)C",
+          "category": "helper_lipids"
+        },
+        "DSPE-PEG": {
+          "composition_percent": 1.6,
+          "smiles": "CCCCCCCCCCCCCCCCCC(=O)OCC[C@H](COP(=O)(O)OCCNCCOCCOCCO)OC(=O)CCCCCCCCCCCCCCCCCC",
+          "category": "phospholipid_peg"
+        }
+      },
+      "properties": {
+        "size": 92.8,
+        "polydispersity_index": 0.1,
+        "zeta_potential": -4.9,
+        "encapsulation_efficiency_": 84.1
+      },
+      "target": 0.133604438
+    }
+  ]
+}
