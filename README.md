@@ -6,7 +6,7 @@ LNPredict is a comprehensive deep learning framework for predicting lipid nanopa
 
 ***
 
-## 📋 Table of Contents
+##  Table of Contents
 
 1. [Features](#features)
 2. [Installation](#installation)
@@ -26,9 +26,9 @@ LNPredict is a comprehensive deep learning framework for predicting lipid nanopa
 
 ***
 
-## ✨ Features
+##  Features
 
-### 🧠 **Advanced Neural Architecture**
+###  **Advanced Neural Architecture**
 
 - **Multi-Head Attention**: Self-attention mechanisms for molecular feature processing
 - **Ensemble Predictions**: Dual prediction heads with uncertainty estimation
@@ -36,7 +36,7 @@ LNPredict is a comprehensive deep learning framework for predicting lipid nanopa
 - **Feature Importance**: Built-in interpretability and attention weight analysis
 
 
-### 🔧 **Training \& Optimization**
+###  **Training \& Optimization**
 
 - **Automated Hyperparameter Tuning**: Comprehensive search across 25+ configurations
 - **Anti-Saturation Training**: Advanced techniques to prevent validation loss plateaus
@@ -44,7 +44,7 @@ LNPredict is a comprehensive deep learning framework for predicting lipid nanopa
 - **Model Checkpointing**: Automatic saving of best models during training
 
 
-### 📊 **Evaluation \& Analysis**
+### **Evaluation \& Analysis**
 
 - **Comprehensive Metrics**: R², RMSE, MAE, correlation analysis
 - **Advanced Visualizations**: 9-panel hyperparameter analysis plots
@@ -52,7 +52,7 @@ LNPredict is a comprehensive deep learning framework for predicting lipid nanopa
 - **Performance Tracking**: Training curves and convergence monitoring
 
 
-### 🚀 **Production Ready**
+### 
 
 - **Model Deployment**: Easy loading and inference for new samples
 - **Batch Processing**: Efficient prediction on large datasets
@@ -61,7 +61,7 @@ LNPredict is a comprehensive deep learning framework for predicting lipid nanopa
 
 ***
 
-## 🔧 Installation
+##  Installation
 
 ### Prerequisites
 
@@ -107,7 +107,7 @@ python -c "import torch; print(f'CUDA available: {torch.cuda.is_available()}')"
 
 ***
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### 1. Prepare Your Data
 
@@ -190,7 +190,7 @@ python scripts/predict.py \
 
 ***
 
-## 📊 Data Format
+##  Data Format
 
 ### Input Data Structure
 
@@ -346,7 +346,7 @@ plt.show()
 
 ***
 
-## 🔍 Hyperparameter Search
+## Hyperparameter Search
 
 ### Comprehensive Search
 
@@ -537,7 +537,7 @@ evaluator.print_evaluation_summary(results)
 
 ***
 
-## 🔮 Making Predictions
+##  Making Predictions
 
 ### Basic Predictions
 
@@ -1349,7 +1349,7 @@ if torch.cuda.is_available():
 
 ***
 
-## 🤝 Contributing
+## Contributing
 
 We welcome contributions to LNPredict! Here's how to get involved:
 
@@ -1403,16 +1403,6 @@ pytest tests/ --cov=src --cov-report=html
 pytest tests/test_models.py::TestLNPModels::test_molecular_encoder
 ```
 
-
-### Adding Features
-
-1. **Fork the repository**
-2. **Create a feature branch**: `git checkout -b feature/new-feature`
-3. **Write tests**: Add tests in `tests/`
-4. **Implement feature**: Add code with proper documentation
-5. **Run tests**: Ensure all tests pass
-6. **Submit PR**: Create a pull request with clear description
-
 ### Documentation
 
 Update documentation for new features:
@@ -1436,44 +1426,9 @@ make html
 
 ## 📄 License
 
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
-
-### MIT License Summary
-
-```
-Copyright (c) 2025 LNPredict Contributors
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
-```
-
-
+All rights reserved! Manuscript under preparation.
 ***
 
-## 📖 Citation
-
-If you use LNPredict in your research, please cite our work:
-
-```bibtex
-@software{lnpredict2025,
-  title={LNPredict: A Deep Learning Framework for Lipid Nanoparticle Property Prediction},
-  author={Your Name and Contributors},
-  year={2025},
-  url={https://github.com/your-username/lnpredict},
-  version={1.0.0}
-}
-```
 
 
 ### Academic Usage
@@ -1487,7 +1442,7 @@ For academic publications, please include:
 
 ***
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - **PyTorch Team**: For the excellent deep learning framework
 - **scikit-learn**: For machine learning utilities and metrics
@@ -1496,42 +1451,6 @@ For academic publications, please include:
 
 ***
 
-## 📞 Support \& Contact
-
-- **Issues**: [GitHub Issues](https://github.com/your-username/lnpredict/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/your-username/lnpredict/discussions)
-- **Email**: your-email@domain.com
-- **Documentation**: [Full Documentation](https://lnpredict.readthedocs.io)
-
-
-### Community
-
-- **Discord**: Join our community server
-- **Twitter**: Follow @LNPredict for updates
-- **Newsletter**: Subscribe for major releases
-
-***
-
-**Happy Predicting! 🚀**
-
-*LNPredict - Advancing LNP Design Through Deep Learning*
-<span style="display:none">[^2][^3][^4][^5][^6][^7][^8]</span>
-
-<div style="text-align: center">⁂</div>
-
-[^1]: https://github.com/othneildrew/Best-README-Template
-
-[^2]: https://dev.to/zand/a-comprehensive-and-user-friendly-project-readmemd-template-2ei8
-
-[^3]: https://www.thegooddocsproject.dev/template/readme
-
-[^4]: https://www.readme-templates.com
-
-[^5]: https://devblogs.microsoft.com/dotnet/write-a-high-quality-readme-for-nuget-packages/
-
-[^6]: https://docs.scholarsphere.psu.edu/guides/writing-readme/
-
-[^7]: https://data.research.cornell.edu/data-management/sharing/readme/
 
 [^8]: https://gitlab.com/kopino4-templates/readme-template
 
